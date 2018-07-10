@@ -54,7 +54,7 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-    (0, uint256("0x00000dc93d16a9f3ea5c69282d4b2495b2939605bcaf59f6fe841fa77c61c6d0"));
+    (0, uint256("0x0000065e7984f07a9759172112166f196703bfda4a29e52f5c85ae94095af915"));
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
     1514540176, // * UNIX timestamp of last checkpoint block
@@ -140,7 +140,9 @@ public:
          *     CTxOut(nValue=50.00000000, scriptPubKey=0xA9037BAC7050C479B121CF)
          *   vMerkleTree: e0028e
          */
-        const char* pszTimestamp = "The Guardian Mar 23 2018 UK interest rates stay on hold but Bank of England hints at rise - Remapper";
+        const char* pszTimestamp = "Sometimes life hits you in the head with a brick. Don't lose faith. - Steve Jobs";
+
+	//const char* pszTimestamp = "The Guardian Mar 23 2018 UK interest rates stay on hold but Bank of England hints at rise - Remapper";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -151,21 +153,45 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1521805605;
+        genesis.nTime = 1530662400;
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 862960;
-
+        genesis.nNonce = 1489470;
+   
+        //printf("genesis.hashMerkleRoot->%s\n",genesis.hashMerkleRoot.ToString().c_str());
 				
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x00000dc93d16a9f3ea5c69282d4b2495b2939605bcaf59f6fe841fa77c61c6d0"));
-        assert(genesis.hashMerkleRoot == uint256("0x6acd105ddf7b5bff42b8f53ad7cedf23b7385f6c27cdb9e64dd61e6a43083b4b"));
 
-        vSeeds.push_back(CDNSSeedData("adult.seeds.mn.zone", "adult.seeds.mn.zone"));       // Seeder
-        vSeeds.push_back(CDNSSeedData("209.250.241.176", "209.250.241.176"));   // Single node address
-        vSeeds.push_back(CDNSSeedData("209.250.243.131", "209.250.243.131"));   // Single node address
-		vSeeds.push_back(CDNSSeedData("45.77.239.108", "45.77.239.108"));       // Single node address
-		vSeeds.push_back(CDNSSeedData("45.32.235.211", "45.32.235.211"));       // Single node address
-		vSeeds.push_back(CDNSSeedData("108.61.188.67", "108.61.188.67"));       // Single node address
+	if(genesis.GetHash() == uint256("0x"))
+    	{
+            printf("Searching for genesis block...\n");
+            uint256 hashTarget = CBigNum().SetCompact(genesis.nBits).getuint256();
+            while(uint256(genesis.GetHash()) > hashTarget)
+            {
+                ++genesis.nNonce;
+                if (genesis.nNonce == 0)
+                {
+                    printf("NONCE WRAPPED, incrementing time");
+                    std::cout << std::string("NONCE WRAPPED, incrementing time:\n");
+                    ++genesis.nTime;
+                }
+                if (genesis.nNonce % 10000 == 0)
+                {
+                    printf("Mainnet: nonce %08u: hash = %s \n", genesis.nNonce, genesis.GetHash().ToString().c_str());
+                }
+            }
+            printf("block.nTime = %u \n", genesis.nTime);
+            printf("block.nNonce = %u \n", genesis.nNonce);
+            printf("block.GetHash = %s\n", genesis.GetHash().ToString().c_str());
+        }
+        assert(hashGenesisBlock == uint256("0x00000d2349555b3c177b758269f944500606e184b46d035d56a091e7529888f9"));
+        assert(genesis.hashMerkleRoot == uint256("0x7978a7d7358e8a80a75c1faea647b43bbffb3fe24635cd8266b766e00c19ee1b"));
+
+        //vSeeds.push_back(CDNSSeedData("adult.seeds.mn.zone", "adult.seeds.mn.zone"));       // Seeder
+        //vSeeds.push_back(CDNSSeedData("209.250.241.176", "209.250.241.176"));   // Single node address
+        //vSeeds.push_back(CDNSSeedData("209.250.243.131", "209.250.243.131"));   // Single node address
+	//vSeeds.push_back(CDNSSeedData("45.77.239.108", "45.77.239.108"));       // Single node address
+	//vSeeds.push_back(CDNSSeedData("45.32.235.211", "45.32.235.211"));       // Single node address
+	vSeeds.push_back(CDNSSeedData("52.15.60.205", "52.15.60.205"));       // Single node address
 		
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 75);
