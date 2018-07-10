@@ -6,12 +6,12 @@ reset-files.bash
 *.tar.gz
 
 *.exe
-src/adultchain
-src/adultchaind
-src/adultchain-cli
-src/adultchain-tx
-src/test/test_adultchain
-src/qt/test/test_adultchain-qt
+src/mymn
+src/mymnd
+src/mymn-cli
+src/mymn-tx
+src/test/test_mymn
+src/qt/test/test_mymn-qt
 
 # autoreconf
 Makefile.in
@@ -37,8 +37,8 @@ confdefs.h
 conftest.cpp
 conftest.err
 libtool
-src/config/adultchain-config.h
-src/config/adultchain-config.h.in
+src/config/mymn-config.h
+src/config/mymn-config.h.in
 src/config/stamp-h1
 share/setup.nsi
 share/qt/Info.plist
@@ -63,7 +63,7 @@ src/qt/test/moc*.cpp
 *.pyc
 *.o
 *.o-*
-.adultchain
+.mymn
 *.a
 *.pb.cc
 *.pb.h
@@ -82,12 +82,12 @@ src/qt/test/moc*.cpp
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
-adultchain-qt
-adultchain-Qt.app
+mymn-qt
+mymn-Qt.app
 
 # Unit-tests
 Makefile.test
-adultchain-qt_test
+mymn-qt_test
 src/test/buildenv.py
 
 # Resources cpp
@@ -103,7 +103,7 @@ build
 #lcov
 *.gcno
 /*.info
-test_adultchain.coverage/
+test_mymn.coverage/
 total.coverage/
 coverage_percent.txt
 
