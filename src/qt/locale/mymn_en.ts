@@ -221,7 +221,7 @@
     </message>
     <message>
         <location line="+9"/>
-        <source>Mymn will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XXXs from being stolen by malware infecting your computer.</source>
+        <source>Mymn will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your MYMNs from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -546,7 +546,7 @@
     </message>
     <message>
         <location line="+11"/>
-        <source>Privacy Actions for zXXX</source>
+        <source>Privacy Actions for zMYMN</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2162,12 +2162,12 @@ https://www.transifex.com/mymn-project/mymn-project-translations</source>
     </message>
     <message>
         <location line="-133"/>
-        <source>Percentage of incoming MYMN which get automatically converted to zXXX via Zerocoin Protocol (min: 10%)</source>
+        <source>Percentage of incoming MYMN which get automatically converted to zMYMN via Zerocoin Protocol (min: 10%)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Percentage of autominted zXXX</source>
+        <source>Percentage of autominted zMYMN</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2178,7 +2178,7 @@ https://www.transifex.com/mymn-project/mymn-project-translations</source>
     </message>
     <message>
         <location line="-13"/>
-        <source>Preferred Automint zXXX Denomination</source>
+        <source>Preferred Automint zMYMN Denomination</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2454,12 +2454,12 @@ https://www.transifex.com/mymn-project/mymn-project-translations</source>
     </message>
     <message>
         <location line="+35"/>
-        <source>zXXX:</source>
+        <source>zMYMN:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Current percentage of zXXX.
+        <source>Current percentage of zMYMN.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2472,7 +2472,7 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
     <message>
         <location line="-46"/>
         <location line="+13"/>
-        <source>Locked MYMN or Masternode collaterals. These are excluded from zXXX minting.</source>
+        <source>Locked MYMN or Masternode collaterals. These are excluded from zMYMN minting.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2492,7 +2492,7 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
     <message>
         <location line="+7"/>
         <location line="+10"/>
-        <source>Unlocked XXXs. These can be used for zXXX minting.</source>
+        <source>Unlocked MYMNs. These can be used for zMYMN minting.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2509,7 +2509,7 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
         <location line="+14"/>
         <location line="+104"/>
         <source>Mature: more than 20 confirmation and more than 3 mints of the same denomination after it was minted.
-These zXXX are spendable.</source>
+These zMYMN are spendable.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2520,7 +2520,7 @@ These zXXX are spendable.</source>
     <message>
         <location line="+23"/>
         <location line="+35"/>
-        <source>All available zXXX, unconfirmed and immature zXXX included.</source>
+        <source>All available zMYMN, unconfirmed and immature zMYMN included.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2550,7 +2550,7 @@ Immature: confirmed, but less than 3 mints of the same denomination after it was
     </message>
     <message>
         <location line="+93"/>
-        <source>Current percentage of zXXX.
+        <source>Current percentage of zMYMN.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
         <translation type="unfinished"></translation>
@@ -2721,7 +2721,7 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="+6"/>
-        <source>Zerocoin MYMN (zXXX)</source>
+        <source>Zerocoin MYMN (zMYMN)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2756,7 +2756,7 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     <message>
         <location line="-349"/>
         <location line="+629"/>
-        <source>zXXX</source>
+        <source>zMYMN</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2847,7 +2847,7 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="+7"/>
-        <source>Available (mature and spendable) zXXX for spending</source>
+        <source>Available (mature and spendable) zMYMN for spending</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2857,15 +2857,15 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="+16"/>
-        <source>Available (mature and spendable) zXXX for spending
+        <source>Available (mature and spendable) zMYMN for spending
 
-zXXX are mature when they have more than 20 confirmations AND more than 3 mints of the same denomination after them were minted</source>
+zMYMN are mature when they have more than 20 confirmations AND more than 3 mints of the same denomination after them were minted</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+5"/>
         <location line="+417"/>
-        <source>0 zXXX</source>
+        <source>0 zMYMN</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2956,7 +2956,7 @@ zXXX are mature when they have more than 20 confirmations AND more than 3 mints 
     <message>
         <location line="+62"/>
         <location line="+38"/>
-        <source>Total Balance including unconfirmed and immature zXXX</source>
+        <source>Total Balance including unconfirmed and immature zMYMN</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3192,7 +3192,7 @@ Immature: confirmed, but less than 3 mints of the same denomination after it was
     </message>
     <message>
         <location line="+0"/>
-        <source> zXXX in </source>
+        <source> zMYMN in </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4253,12 +4253,12 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+772"/>
-        <source>If the custom fee is set to 1000 uXXXs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uXXXs in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uXXXs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1000 uMYMNs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uMYMNs in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uMYMNs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>If the custom fee is set to 1000 uXXXs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uXXXs in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uXXXs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1000 uMYMNs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uMYMNs in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uMYMNs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

@@ -176,8 +176,8 @@
         <translation>Confirme el cifrado del monedero</translation>
     </message>
     <message>
-        <source>Mymn will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XXXs from being stolen by malware infecting your computer.</source>
-        <translation>Mymn se cerrará para finalizar el proceso de cifrado. Recuerde que cifrar su monedero no garantiza que sus XXXs no sean robados mediante malware de su ordenador.</translation>
+        <source>Mymn will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your MYMNs from being stolen by malware infecting your computer.</source>
+        <translation>Mymn se cerrará para finalizar el proceso de cifrado. Recuerde que cifrar su monedero no garantiza que sus MYMNs no sean robados mediante malware de su ordenador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -618,8 +618,8 @@
         <translation>&amp;Privacidad</translation>
     </message>
     <message>
-        <source>Privacy Action for zXXX and Obfuscation</source>
-        <translation>Privacidad con zXXX y Ofuscación</translation>
+        <source>Privacy Action for zMYMN and Obfuscation</source>
+        <translation>Privacidad con zMYMN y Ofuscación</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -1716,20 +1716,20 @@ https://www.transifex.com/mymn-project/mymn-project-translations</translation>
         <translation>Mapear un puerto utilizando &amp;UPnP</translation>
     </message>
     <message>
-        <source>Percentage of incoming MYMN which get automatically converted to zXXX via Zerocoin Protocol (min: 10%)</source>
-        <translation>Porcentaje de XXXs entrantes que serán automáticamente convertidos a zXXX a través del Protocolo Zerocoin (mín: 10%)</translation>
+        <source>Percentage of incoming MYMN which get automatically converted to zMYMN via Zerocoin Protocol (min: 10%)</source>
+        <translation>Porcentaje de MYMNs entrantes que serán automáticamente convertidos a zMYMN a través del Protocolo Zerocoin (mín: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zXXX</source>
-        <translation>Porcentaje de zXXX autogenerados</translation>
+        <source>Percentage of autominted zMYMN</source>
+        <translation>Porcentaje de zMYMN autogenerados</translation>
     </message>
     <message>
         <source>Wait with automatic conversion to Zerocoin until enough MYMN for this denomination is available</source>
         <translation>Retrasar la conversión automática a Zerocoin hasta que hayan suficientes MYMN disponibles para este tamaño de billete</translation>
     </message>
     <message>
-        <source>Preferred Automint zXXX Denomination</source>
-        <translation>Tamaño de billete zXXX preferido en la creación automática de dinero</translation>
+        <source>Preferred Automint zMYMN Denomination</source>
+        <translation>Tamaño de billete zMYMN preferido en la creación automática de dinero</translation>
     </message>
     <message>
         <source>Connect to the Mymn network through a SOCKS5 proxy.</source>
@@ -1935,8 +1935,8 @@ https://www.transifex.com/mymn-project/mymn-project-translations</translation>
         <translation>MYMN:</translation>
     </message>
     <message>
-        <source>zXXX:</source>
-        <translation>zXXX:</translation>
+        <source>zMYMN:</source>
+        <translation>zMYMN:</translation>
     </message>
     <message>
         <source>0 %</source>
@@ -2068,8 +2068,8 @@ https://www.transifex.com/mymn-project/mymn-project-translations</translation>
         <translation>MYMN que fueron anonimizados mediante Protocolo Zerocoin</translation>
     </message>
     <message>
-        <source>Zerocoin MYMN (zXXX)</source>
-        <translation>Zerocoin MYMN (zXXX)</translation>
+        <source>Zerocoin MYMN (zMYMN)</source>
+        <translation>Zerocoin MYMN (zMYMN)</translation>
     </message>
     <message>
         <source>Zerocoin Actions:</source>
@@ -2092,8 +2092,8 @@ https://www.transifex.com/mymn-project/mymn-project-translations</translation>
         <translation>0</translation>
     </message>
     <message>
-        <source>zXXX</source>
-        <translation>zXXX</translation>
+        <source>zMYMN</source>
+        <translation>zMYMN</translation>
     </message>
     <message>
         <source>Available for Minting:</source>
@@ -2160,8 +2160,8 @@ https://www.transifex.com/mymn-project/mymn-project-translations</translation>
         <translation>Balance disponible:</translation>
     </message>
     <message>
-        <source>0 zXXX</source>
-        <translation>0 zXXX</translation>
+        <source>0 zMYMN</source>
+        <translation>0 zMYMN</translation>
     </message>
     <message>
         <source>Security Level for Zerocoin Transactions. More is better, but needs more time and resources.</source>
@@ -2400,8 +2400,8 @@ https://www.transifex.com/mymn-project/mymn-project-translations</translation>
         <translation>Monedas creadas correctamente</translation>
     </message>
     <message>
-        <source> zXXX in </source>
-        <translation>zXXX en</translation>
+        <source> zMYMN in </source>
+        <translation>zMYMN en</translation>
     </message>
     <message>
         <source> sec. Used denominations:
@@ -3183,12 +3183,12 @@ Por favor tenga paciencia...</translation>
         <translation>Monedas seleccionadas automáticamente</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uXXXs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uXXXs in fee,&lt;br /&gt;while "at least" pays 1000 uXXXs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Si la comisión personalizada se fija en 1000 uXXXs y la transacción necesita sólo 250 bytes, entonces la opción "por kilobyte" sólo pagará 250 uXXXs de comisión,&lt;br/&gt;mientras "por lo menos" pagará 1000 uXXXs. Para transacciones que midan más de un kilobyte ambas pagan por kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uMYMNs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uMYMNs in fee,&lt;br /&gt;while "at least" pays 1000 uMYMNs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Si la comisión personalizada se fija en 1000 uMYMNs y la transacción necesita sólo 250 bytes, entonces la opción "por kilobyte" sólo pagará 250 uMYMNs de comisión,&lt;br/&gt;mientras "por lo menos" pagará 1000 uMYMNs. Para transacciones que midan más de un kilobyte ambas pagan por kilobyte.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uXXXs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uXXXs in fee,&lt;br /&gt;while "total at least" pays 1000 uXXXs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Si la comisión personalizada se fija en 1000 uXXXs y la transacción necesita sólo 250 bytes, entonces la opción "por kilobyte" sólo pagará 250 uXXXs de comisión,&lt;br/&gt;mientras "por lo menos" pagará 1000 uXXXs. Para transacciones que midan más de un kilobyte ambas pagan por kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uMYMNs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uMYMNs in fee,&lt;br /&gt;while "total at least" pays 1000 uMYMNs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Si la comisión personalizada se fija en 1000 uMYMNs y la transacción necesita sólo 250 bytes, entonces la opción "por kilobyte" sólo pagará 250 uMYMNs de comisión,&lt;br/&gt;mientras "por lo menos" pagará 1000 uMYMNs. Para transacciones que midan más de un kilobyte ambas pagan por kilobyte.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Mymn transactions than the network can process.</source>

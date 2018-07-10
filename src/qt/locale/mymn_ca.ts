@@ -168,7 +168,7 @@
         <translation>Confirma l'encriptació del moneder</translation>
     </message>
     <message>
-        <source>Mymn will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XXXs from being stolen by malware infecting your computer.</source>
+        <source>Mymn will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your MYMNs from being stolen by malware infecting your computer.</source>
         <translation>Mymn es tancarà per finalitzar el procés d'encriptació. Recorda que encriptant el teu moneder no protegeix els teus MYMN de ser robats si el teu ordinador està infectat amb programari maliciós.</translation>
     </message>
     <message>
@@ -177,7 +177,7 @@
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MYMN&lt;/b&gt;!</source>
-        <translation>Avís: Si encripteu el vostre moneder i perdeu la contrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES XXXS&lt;/b&gt;!</translation>
+        <translation>Avís: Si encripteu el vostre moneder i perdeu la contrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES MYMNS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -1275,8 +1275,8 @@
         <translation>MYMN:</translation>
     </message>
     <message>
-        <source>zXXX:</source>
-        <translation>zXXX:</translation>
+        <source>zMYMN:</source>
+        <translation>zMYMN:</translation>
     </message>
     <message>
         <source>0 %</source>
@@ -1304,16 +1304,16 @@
 <context>
     <name>PrivacyDialog</name>
     <message>
-        <source>Zerocoin MYMN (zXXX)</source>
-        <translation>Zerocoin MYMN (zXXX)</translation>
+        <source>Zerocoin MYMN (zMYMN)</source>
+        <translation>Zerocoin MYMN (zMYMN)</translation>
     </message>
     <message>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <source>zXXX</source>
-        <translation>zXXX</translation>
+        <source>zMYMN</source>
+        <translation>zMYMN</translation>
     </message>
     <message>
         <source>0.000 000 00 MYMN</source>
@@ -1332,8 +1332,8 @@
         <translation>Import:</translation>
     </message>
     <message>
-        <source>0 zXXX</source>
-        <translation>0 zXXX</translation>
+        <source>0 zMYMN</source>
+        <translation>0 zMYMN</translation>
     </message>
     <message>
         <source>Alt+A</source>

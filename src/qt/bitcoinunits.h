@@ -59,8 +59,8 @@ public:
      */
     enum Unit {
         MYMN,
-        mXXX,
-        uXXX
+        mMYMN,
+        uMYMN
     };
 
     enum SeparatorStyle {

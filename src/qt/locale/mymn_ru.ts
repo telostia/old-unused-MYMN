@@ -172,7 +172,7 @@
         <translation>Подтверждение шифрования кошелька</translation>
     </message>
     <message>
-        <source>Mymn will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XXXs from being stolen by malware infecting your computer.</source>
+        <source>Mymn will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your MYMNs from being stolen by malware infecting your computer.</source>
         <translation>Mymn сейчас закроется, чтобы завершить процесс шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши Mymn от кражи с использованием вредоносного ПО.</translation>
     </message>
     <message>
@@ -610,7 +610,7 @@
         <translation>&amp;Конфиденциальность</translation>
     </message>
     <message>
-        <source>Privacy Action for zXXX and Obfuscation</source>
+        <source>Privacy Action for zMYMN and Obfuscation</source>
         <translation>Конфиденциальное действие и обфускация</translation>
     </message>
     <message>
@@ -1684,16 +1684,16 @@ https://www.transifex.com/mymn-project/mymn-project-translations</translation>
         <translation>Карта порта, использующего &amp;UPnP</translation>
     </message>
     <message>
-        <source>Percentage of incoming MYMN which get automatically converted to zXXX via Zerocoin Protocol (min: 10%)</source>
-        <translation>Процент приходящих MYMN, которые автоматически конвертируются в zXXX благодаря Zerocoin протоколу (min: 10%)</translation>
+        <source>Percentage of incoming MYMN which get automatically converted to zMYMN via Zerocoin Protocol (min: 10%)</source>
+        <translation>Процент приходящих MYMN, которые автоматически конвертируются в zMYMN благодаря Zerocoin протоколу (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zXXX</source>
-        <translation>Процент  авточеканненых zXXX</translation>
+        <source>Percentage of autominted zMYMN</source>
+        <translation>Процент  авточеканненых zMYMN</translation>
     </message>
     <message>
-        <source>Preferred Automint zXXX Denomination</source>
-        <translation>Предпочитаемый номинал авточеканной  монеты  zXXX</translation>
+        <source>Preferred Automint zMYMN Denomination</source>
+        <translation>Предпочитаемый номинал авточеканной  монеты  zMYMN</translation>
     </message>
     <message>
         <source>Connect to the Mymn network through a SOCKS5 proxy.</source>
@@ -1895,8 +1895,8 @@ https://www.transifex.com/mymn-project/mymn-project-translations</translation>
         <translation>MYMN:</translation>
     </message>
     <message>
-        <source>zXXX:</source>
-        <translation>zXXX:</translation>
+        <source>zMYMN:</source>
+        <translation>zMYMN:</translation>
     </message>
     <message>
         <source>0 %</source>

@@ -176,8 +176,8 @@
         <translation>Wallet-Verschlüsselung bestätigen</translation>
     </message>
     <message>
-        <source>Mymn will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XXXs from being stolen by malware infecting your computer.</source>
-        <translation>Die Anwendungs wird nun geschlossen um die Verschlüsselung abzuschließen. Bitte beachten Sie, dass auch Verschlüsselung nicht nicht vollständig vor Diebstahl ihrer XXXs durch Schadsoftware schützt, die ihren Computer befällt.</translation>
+        <source>Mymn will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your MYMNs from being stolen by malware infecting your computer.</source>
+        <translation>Die Anwendungs wird nun geschlossen um die Verschlüsselung abzuschließen. Bitte beachten Sie, dass auch Verschlüsselung nicht nicht vollständig vor Diebstahl ihrer MYMNs durch Schadsoftware schützt, die ihren Computer befällt.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -185,7 +185,7 @@
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MYMN&lt;/b&gt;!</source>
-        <translation>Warnung: Wenn Sie ihre Wallet verschlüsseln und Ihre Passphrase verlieren werden Sie &lt;b&gt;alle ihre XXXs verlieren&lt;/b&gt;!</translation>
+        <translation>Warnung: Wenn Sie ihre Wallet verschlüsseln und Ihre Passphrase verlieren werden Sie &lt;b&gt;alle ihre MYMNs verlieren&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -618,8 +618,8 @@
         <translation>&amp;Privatsphäre</translation>
     </message>
     <message>
-        <source>Privacy Action for zXXX and Obfuscation</source>
-        <translation>Privatsphäre Aktion für zXXX und Verschleierung</translation>
+        <source>Privacy Action for zMYMN and Obfuscation</source>
+        <translation>Privatsphäre Aktion für zMYMN und Verschleierung</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -1707,20 +1707,20 @@ https://www.transifex.com/mymn-project/mymn-project-translations</translation>
         <translation>Port mit &amp;UPnP mappen</translation>
     </message>
     <message>
-        <source>Percentage of incoming MYMN which get automatically converted to zXXX via Zerocoin Protocol (min: 10%)</source>
-        <translation>Anteil des eingehenden MYMN, welcher automatisch zu zXXX via Zerocoin Protokoll konvertiert wird (min: 10%)</translation>
+        <source>Percentage of incoming MYMN which get automatically converted to zMYMN via Zerocoin Protocol (min: 10%)</source>
+        <translation>Anteil des eingehenden MYMN, welcher automatisch zu zMYMN via Zerocoin Protokoll konvertiert wird (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zXXX</source>
-        <translation>Prozentsatz der automatisierten zXXX</translation>
+        <source>Percentage of autominted zMYMN</source>
+        <translation>Prozentsatz der automatisierten zMYMN</translation>
     </message>
     <message>
         <source>Wait with automatic conversion to Zerocoin until enough MYMN for this denomination is available</source>
         <translation>Warte mit automatischer Konvertierung zu Zerocoin, bis genügend MYMN für diese Stückelung verfügbar ist</translation>
     </message>
     <message>
-        <source>Preferred Automint zXXX Denomination</source>
-        <translation>Bevorzugte automatisierte zXXX Stückelung </translation>
+        <source>Preferred Automint zMYMN Denomination</source>
+        <translation>Bevorzugte automatisierte zMYMN Stückelung </translation>
     </message>
     <message>
         <source>Connect to the Mymn network through a SOCKS5 proxy.</source>
@@ -1926,8 +1926,8 @@ https://www.transifex.com/mymn-project/mymn-project-translations</translation>
         <translation>MYMN:</translation>
     </message>
     <message>
-        <source>zXXX:</source>
-        <translation>zXXX:</translation>
+        <source>zMYMN:</source>
+        <translation>zMYMN:</translation>
     </message>
     <message>
         <source>0 %</source>
@@ -2059,8 +2059,8 @@ https://www.transifex.com/mymn-project/mymn-project-translations</translation>
         <translation>MYMN, die über das Zerocoin-Protokoll anonymisiert wurden</translation>
     </message>
     <message>
-        <source>Zerocoin MYMN (zXXX)</source>
-        <translation>Zerocoin MYMN (zXXX)</translation>
+        <source>Zerocoin MYMN (zMYMN)</source>
+        <translation>Zerocoin MYMN (zMYMN)</translation>
     </message>
     <message>
         <source>Zerocoin Actions:</source>
@@ -2083,8 +2083,8 @@ https://www.transifex.com/mymn-project/mymn-project-translations</translation>
         <translation>0</translation>
     </message>
     <message>
-        <source>zXXX</source>
-        <translation>zXXX</translation>
+        <source>zMYMN</source>
+        <translation>zMYMN</translation>
     </message>
     <message>
         <source>Available for Minting:</source>
@@ -2151,8 +2151,8 @@ https://www.transifex.com/mymn-project/mymn-project-translations</translation>
         <translation>Verfügbare Bilanz:</translation>
     </message>
     <message>
-        <source>0 zXXX</source>
-        <translation>0 zXXX</translation>
+        <source>0 zMYMN</source>
+        <translation>0 zMYMN</translation>
     </message>
     <message>
         <source>Security Level for Zerocoin Transactions. More is better, but needs more time and resources.</source>
@@ -2391,8 +2391,8 @@ https://www.transifex.com/mymn-project/mymn-project-translations</translation>
         <translation>Erfolgreich geprägt</translation>
     </message>
     <message>
-        <source> zXXX in </source>
-        <translation> zXXX in </translation>
+        <source> zMYMN in </source>
+        <translation> zMYMN in </translation>
     </message>
     <message>
         <source> sec. Used denominations:
@@ -2470,7 +2470,7 @@ Bitte haben Sie Geduld...</translation>
     </message>
     <message>
         <source>zPhr Spend #: </source>
-        <translation>zXXX Ausgeben #:</translation>
+        <translation>zMYMN Ausgeben #:</translation>
     </message>
     <message>
         <source>denomination: </source>
@@ -3051,7 +3051,7 @@ Bitte haben Sie Geduld...</translation>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>XXXs überweisen</translation>
+        <translation>MYMNs überweisen</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -3174,12 +3174,12 @@ Bitte haben Sie Geduld...</translation>
         <translation>Coins automatisch ausgewählt</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uXXXs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uXXXs in fee,&lt;br /&gt;while "at least" pays 1000 uXXXs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Wenn die kundenspezifische Gebühr auf 1000 uXXXs eingestellt ist und die Transaktion nur 250 Bytes beträgt, dann zahlt man "pro Kilobyte" nur 250 uXXXs an Gebühren,&lt;br /&gt;während man "mindestens" 1000 uXXXs bezahlt. Für Transaktionen, die größer sind als ein Kilobyte, bezahlen sie per Kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uMYMNs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uMYMNs in fee,&lt;br /&gt;while "at least" pays 1000 uMYMNs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Wenn die kundenspezifische Gebühr auf 1000 uMYMNs eingestellt ist und die Transaktion nur 250 Bytes beträgt, dann zahlt man "pro Kilobyte" nur 250 uMYMNs an Gebühren,&lt;br /&gt;während man "mindestens" 1000 uMYMNs bezahlt. Für Transaktionen, die größer sind als ein Kilobyte, bezahlen sie per Kilobyte.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uXXXs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uXXXs in fee,&lt;br /&gt;while "total at least" pays 1000 uXXXs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Wenn die kundenspezifische Gebühr auf 1000 uXXXs eingestellt ist und die Transaktion nur 250 Bytes beträgt, dann zahlt man "pro Kilobyte" nur 250 uXXXs an Gebühren,&lt;br /&gt;während man "insgesamt mindestens" 1000 uXXXs bezahlt. Für Transaktionen, die größer sind als ein Kilobyte, bezahlen sie per Kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uMYMNs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uMYMNs in fee,&lt;br /&gt;while "total at least" pays 1000 uMYMNs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Wenn die kundenspezifische Gebühr auf 1000 uMYMNs eingestellt ist und die Transaktion nur 250 Bytes beträgt, dann zahlt man "pro Kilobyte" nur 250 uMYMNs an Gebühren,&lt;br /&gt;während man "insgesamt mindestens" 1000 uMYMNs bezahlt. Für Transaktionen, die größer sind als ein Kilobyte, bezahlen sie per Kilobyte.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Mymn transactions than the network can process.</source>
@@ -3805,7 +3805,7 @@ Bitte haben Sie Geduld...</translation>
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Erzeugte XXXs müssen %1 Blöcke lang reifen, bevor sie ausgegeben werden können. Als Sie diesen Block erzeugten, wurde er an das Netzwerk übertragen, um ihn der Blockkette hinzuzufügen. Falls dies fehlschlägt wird der Status in "nicht angenommen" geändert und Sie werden keine XXXs gutgeschrieben bekommen. Das kann gelegentlich passieren, wenn ein anderer Knoten einen Block fast zeitgleich erzeugt.</translation>
+        <translation>Erzeugte MYMNs müssen %1 Blöcke lang reifen, bevor sie ausgegeben werden können. Als Sie diesen Block erzeugten, wurde er an das Netzwerk übertragen, um ihn der Blockkette hinzuzufügen. Falls dies fehlschlägt wird der Status in "nicht angenommen" geändert und Sie werden keine MYMNs gutgeschrieben bekommen. Das kann gelegentlich passieren, wenn ein anderer Knoten einen Block fast zeitgleich erzeugt.</translation>
     </message>
     <message>
         <source>Debug information</source>
@@ -3951,23 +3951,23 @@ Bitte haben Sie Geduld...</translation>
     </message>
     <message>
         <source>Converted Phr to zPhr</source>
-        <translation>Umgewandeltes MYMN zu zXXX</translation>
+        <translation>Umgewandeltes MYMN zu zMYMN</translation>
     </message>
     <message>
         <source>Spent zPhr</source>
-        <translation>Ausgeben zXXX</translation>
+        <translation>Ausgeben zMYMN</translation>
     </message>
     <message>
         <source>Received Phr from zPhr</source>
-        <translation>Empfangene MYMN von zXXX</translation>
+        <translation>Empfangene MYMN von zMYMN</translation>
     </message>
     <message>
         <source>Minted Change as zPhr from zPhr Spend</source>
-        <translation>Geprägtes Wechselgeld als zXXX von zXXX Ausgabe</translation>
+        <translation>Geprägtes Wechselgeld als zMYMN von zMYMN Ausgabe</translation>
     </message>
     <message>
         <source>Converted zPhr to Phr</source>
-        <translation>Umgewandeltes zXXX zu MYMN</translation>
+        <translation>Umgewandeltes zMYMN zu MYMN</translation>
     </message>
     <message>
         <source>watch-only</source>
@@ -3975,7 +3975,7 @@ Bitte haben Sie Geduld...</translation>
     </message>
     <message>
         <source>zPhr Accumulator</source>
-        <translation>zXXX Speicher</translation>
+        <translation>zMYMN Speicher</translation>
     </message>
     <message>
         <source>(n/a)</source>
@@ -4086,7 +4086,7 @@ Bitte haben Sie Geduld...</translation>
     </message>
     <message>
         <source>Received Phr from zPhr</source>
-        <translation>Empfangene MYMN von zXXX</translation>
+        <translation>Empfangene MYMN von zMYMN</translation>
     </message>
     <message>
         <source>Zerocoin Mint</source>
@@ -4098,7 +4098,7 @@ Bitte haben Sie Geduld...</translation>
     </message>
     <message>
         <source>Zerocoin Spend, Change in zPhr</source>
-        <translation>Zerocoin Ausgabe, Wechselgeld in zXXX</translation>
+        <translation>Zerocoin Ausgabe, Wechselgeld in zMYMN</translation>
     </message>
     <message>
         <source>Zerocoin Spend to Self</source>
@@ -4219,7 +4219,7 @@ Bitte haben Sie Geduld...</translation>
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>XXXs überweisen</translation>
+        <translation>MYMNs überweisen</translation>
     </message>
     <message>
         <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 MYMN.</source>
@@ -4269,7 +4269,7 @@ Bitte haben Sie Geduld...</translation>
     <name>ZPhrControlDialog</name>
     <message>
         <source>Select zPhr to Spend</source>
-        <translation>Auswahl zXXX als Ausgabe</translation>
+        <translation>Auswahl zMYMN als Ausgabe</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -4281,7 +4281,7 @@ Bitte haben Sie Geduld...</translation>
     </message>
     <message>
         <source>zPhr</source>
-        <translation>zXXX</translation>
+        <translation>zMYMN</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>

@@ -31,7 +31,7 @@
      <item>
       <layout class="QVBoxLayout" name="verticalLayout_2" stretch="0,0,0">
        <item>
-        <widget class="QLabel" name="zXXXLabel">
+        <widget class="QLabel" name="zMYMNLabel">
          <property name="minimumSize">
           <size>
            <width>460</width>
@@ -58,7 +58,7 @@
           <bool>true</bool>
          </property>
          <property name="text">
-          <string>Zerocoin MYMN (zXXX)</string>
+          <string>Zerocoin MYMN (zMYMN)</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignCenter</set>
@@ -74,7 +74,7 @@
              <item>
               <layout class="QHBoxLayout" name="horizontalLayout_3">
                <item>
-                <widget class="QLabel" name="labelzXXXActions">
+                <widget class="QLabel" name="labelzMYMNActions">
                  <property name="font">
                   <font>
                    <pointsize>12</pointsize>
@@ -83,7 +83,7 @@
                   </font>
                  </property>
                  <property name="text">
-                  <string>zXXX Actions:</string>
+                  <string>zMYMN Actions:</string>
                  </property>
                  <property name="alignment">
                   <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -91,7 +91,7 @@
                 </widget>
                </item>
                <item>
-                <widget class="QLabel" name="labelzXXXSyncStatus">
+                <widget class="QLabel" name="labelzMYMNSyncStatus">
                  <property name="toolTip">
                   <string>The displayed information may be out of date. Your wallet automatically synchronizes with the Mymn network after a connection is established, but this process has not completed yet.</string>
                  </property>
@@ -137,7 +137,7 @@
              <item>
               <layout class="QHBoxLayout" name="horizontalLayout_4">
                <item>
-                <widget class="QPushButton" name="pushButtonMintzXXX">
+                <widget class="QPushButton" name="pushButtonMintzMYMN">
                  <property name="minimumSize">
                   <size>
                    <width>131</width>
@@ -148,7 +148,7 @@
                   <string>Enter an amount of Xxx to convert (mint) to zXxx</string>
                  </property>
                  <property name="text">
-                  <string>Convert MYMN to zXXX</string>
+                  <string>Convert MYMN to zMYMN</string>
                  </property>
                 </widget>
                </item>
@@ -169,14 +169,14 @@
                 </widget>
                </item>
                <item>
-                <widget class="QLabel" name="labelzXXX_2">
+                <widget class="QLabel" name="labelzMYMN_2">
                  <property name="text">
-                  <string>zXXX</string>
+                  <string>zMYMN</string>
                  </property>
                 </widget>
                </item>
                <item>
-                <widget class="QLabel" name="labelzXXXAmountText">
+                <widget class="QLabel" name="labelzMYMNAmountText">
                  <property name="toolTip">
                   <string>Available Balance are coins (Xxx) which are confirmed and not locked or Masternode collaterals.</string>
                  </property>
@@ -189,7 +189,7 @@
                 </widget>
                </item>
                <item>
-                <widget class="QLabel" name="labelzXXXAmountValue">
+                <widget class="QLabel" name="labelzMYMNAmountValue">
                  <property name="toolTip">
                   <string>Enter an amount of Xxx to convert to zXxx</string>
                  </property>
@@ -542,7 +542,7 @@
              <item>
               <layout class="QHBoxLayout" name="horizontalLayout_6">
                <item>
-                <widget class="QPushButton" name="pushButtonSpendzXXX">
+                <widget class="QPushButton" name="pushButtonSpendzMYMN">
                  <property name="minimumSize">
                   <size>
                    <width>131</width>
@@ -550,17 +550,17 @@
                   </size>
                  </property>
                  <property name="toolTip">
-                  <string>Send zXXX. Without 'Pay To:' address creates payments to yourself.</string>
+                  <string>Send zMYMN. Without 'Pay To:' address creates payments to yourself.</string>
                  </property>
                  <property name="text">
-                  <string>Send zXXX</string>
+                  <string>Send zMYMN</string>
                  </property>
                 </widget>
                </item>
                <item>
-                <widget class="QLabel" name="labelzXXXBalanceText">
+                <widget class="QLabel" name="labelzMYMNBalanceText">
                  <property name="toolTip">
-                  <string>Available (mature and spendable) zXXX for spending</string>
+                  <string>Available (mature and spendable) zMYMN for spending</string>
                  </property>
                  <property name="text">
                   <string>Available Balance:</string>
@@ -579,12 +579,12 @@
                   </font>
                  </property>
                  <property name="toolTip">
-                  <string>Available (mature and spendable) zXXX for spending
+                  <string>Available (mature and spendable) zMYMN for spending
 
-zXXX are mature when they have more than 20 confirmations AND more than 1 mints of the same denomination after them were minted</string>
+zMYMN are mature when they have more than 20 confirmations AND more than 1 mints of the same denomination after them were minted</string>
                  </property>
                  <property name="text">
-                  <string>0 zXXX</string>
+                  <string>0 zMYMN</string>
                  </property>
                  <property name="alignment">
                   <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -784,15 +784,15 @@ zXXX are mature when they have more than 20 confirmations AND more than 1 mints 
                   <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
                  </property>
                  <property name="buddy">
-                  <cstring>zXXXpayAmount</cstring>
+                  <cstring>zMYMNpayAmount</cstring>
                  </property>
                 </widget>
                </item>
                <item>
-                <widget class="QLineEdit" name="zXXXpayAmount"/>
+                <widget class="QLineEdit" name="zMYMNpayAmount"/>
                </item>
                <item>
-                <widget class="QLabel" name="labelzXXX">
+                <widget class="QLabel" name="labelzMYMN">
                  <property name="minimumSize">
                   <size>
                    <width>55</width>
@@ -800,7 +800,7 @@ zXXX are mature when they have more than 20 confirmations AND more than 1 mints 
                   </size>
                  </property>
                  <property name="text">
-                  <string>zXXX</string>
+                  <string>zMYMN</string>
                  </property>
                 </widget>
                </item>
@@ -833,7 +833,7 @@ zXXX are mature when they have more than 20 confirmations AND more than 1 mints 
                   <enum>Qt::LeftToRight</enum>
                  </property>
                  <property name="text">
-                  <string>Convert Change Back to zXXX (might cost additional fees)</string>
+                  <string>Convert Change Back to zMYMN (might cost additional fees)</string>
                  </property>
                 </widget>
                </item>
@@ -886,7 +886,7 @@ zXXX are mature when they have more than 20 confirmations AND more than 1 mints 
              <item>
               <layout class="QHBoxLayout" name="horizontalLayout_21">
                <item>
-                <widget class="QLabel" name="labelzXXXStats">
+                <widget class="QLabel" name="labelzMYMNStats">
                  <property name="font">
                   <font>
                    <pointsize>12</pointsize>
@@ -898,7 +898,7 @@ zXXX are mature when they have more than 20 confirmations AND more than 1 mints 
                   <string>Information about the available zXxx funds.</string>
                  </property>
                  <property name="text">
-                  <string>zXXX Stats:</string>
+                  <string>zMYMN Stats:</string>
                  </property>
                  <property name="alignment">
                   <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -960,10 +960,10 @@ zXXX are mature when they have more than 20 confirmations AND more than 1 mints 
                   </font>
                  </property>
                  <property name="toolTip">
-                  <string>Total Balance including unconfirmed and immature zXXX</string>
+                  <string>Total Balance including unconfirmed and immature zMYMN</string>
                  </property>
                  <property name="text">
-                  <string>Total zXXX Balance:</string>
+                  <string>Total zMYMN Balance:</string>
                  </property>
                  <property name="alignment">
                   <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -998,10 +998,10 @@ zXXX are mature when they have more than 20 confirmations AND more than 1 mints 
                   </font>
                  </property>
                  <property name="toolTip">
-                  <string>Total Balance including unconfirmed and immature zXXX</string>
+                  <string>Total Balance including unconfirmed and immature zMYMN</string>
                  </property>
                  <property name="text">
-                  <string>0 zXXX</string>
+                  <string>0 zMYMN</string>
                  </property>
                  <property name="alignment">
                   <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>

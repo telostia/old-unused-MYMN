@@ -11,7 +11,7 @@ Mymn is a cutting edge cryptocurrency, with many features not available in most 
   technology used to secure the network and provide the above features, each Masternode is secured
   with a collateral of 20K MYMN.
 
-More information at [Mymn.xxx](https://www.mymncoin.xxx) Visit our ANN thread at [BitcoinTalk](http://www.bitcointalk.org/index.php)
+More information at [Mymn.mymn](https://www.mymncoin.mymn) Visit our ANN thread at [BitcoinTalk](http://www.bitcointalk.org/index.php)
 
 
 ### Coin Specs
