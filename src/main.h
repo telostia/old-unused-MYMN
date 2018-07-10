@@ -368,9 +368,9 @@ bool RemoveSerialFromDB(const CBigNum& bnSerial);
 int GetZerocoinStartHeight();
 bool IsTransactionInChain(uint256 txId, int& nHeightTx);
 bool IsBlockHashInChain(const uint256& hashBlock);
-void RecalculateZXXXSpent();
-void RecalculateZXXXMinted();
-bool RecalculateXXXSupply(int nHeightStart);
+void RecalculateZMYMNSpent();
+void RecalculateZMYMNMinted();
+bool RecalculateMYMNSupply(int nHeightStart);
 
 
 /**

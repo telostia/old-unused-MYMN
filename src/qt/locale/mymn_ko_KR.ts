@@ -176,8 +176,8 @@
         <translation>지갑 암호화 확인</translation>
     </message>
     <message>
-        <source>Mymn will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XXXs from being stolen by malware infecting your computer.</source>
-        <translation>Mymn는 이제 암호화 프로세스를 마치기 위해 닫힐것입니다. 지갑을 암호화하더라도 맬웨어로 인한 XXXs 의 도난당하는 것을 완벽하게 보호 할 수는 없습니다.</translation>
+        <source>Mymn will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your MYMNs from being stolen by malware infecting your computer.</source>
+        <translation>Mymn는 이제 암호화 프로세스를 마치기 위해 닫힐것입니다. 지갑을 암호화하더라도 맬웨어로 인한 MYMNs 의 도난당하는 것을 완벽하게 보호 할 수는 없습니다.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -185,7 +185,7 @@
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MYMN&lt;/b&gt;!</source>
-        <translation>경고: 지갑 암호화 후 암호를 분실하게 되면 &lt;b&gt;모든 XXX를 잃게 됩니다&lt;/b&gt;!</translation>
+        <translation>경고: 지갑 암호화 후 암호를 분실하게 되면 &lt;b&gt;모든 MYMN를 잃게 됩니다&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -618,8 +618,8 @@
         <translation>&amp;프라이버시</translation>
     </message>
     <message>
-        <source>Privacy Action for zXXX and Obfuscation</source>
-        <translation>zXXX와 난독화를 위한 프라이버스 작업</translation>
+        <source>Privacy Action for zMYMN and Obfuscation</source>
+        <translation>zMYMN와 난독화를 위한 프라이버스 작업</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -1561,11 +1561,11 @@ Please check the address and try again.</source>
     </message>
     <message>
         <source>This option is the quickest and will cost about ~0.025 MYMN to anonymize 10000 MYMN</source>
-        <translation>이 옵션은 가장 빠르게 전송되며 10000 MYMN 익명화에 약 ~0.025 XXX의 비용이 들어갑니다.</translation>
+        <translation>이 옵션은 가장 빠르게 전송되며 10000 MYMN 익명화에 약 ~0.025 MYMN의 비용이 들어갑니다.</translation>
     </message>
     <message>
         <source>This option is moderately fast and will cost about 0.05 MYMN to anonymize 10000 MYMN</source>
-        <translation>이 옵션은 중간 정도의 속도로 전송되며 10000 MYMN 익명화에 약 0.05 XXX의 비용이 들어갑니다.</translation>
+        <translation>이 옵션은 중간 정도의 속도로 전송되며 10000 MYMN 익명화에 약 0.05 MYMN의 비용이 들어갑니다.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
@@ -1716,20 +1716,20 @@ https://www.transifex.com/mymn-project/mymn-project-translations</translation>
         <translation>&amp;UPnp를 사용하여 포트 매핑</translation>
     </message>
     <message>
-        <source>Percentage of incoming MYMN which get automatically converted to zXXX via Zerocoin Protocol (min: 10%)</source>
-        <translation>XXX수신시 자동변환 zXXX 퍼센트 (최소값:10%)</translation>
+        <source>Percentage of incoming MYMN which get automatically converted to zMYMN via Zerocoin Protocol (min: 10%)</source>
+        <translation>MYMN수신시 자동변환 zMYMN 퍼센트 (최소값:10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zXXX</source>
-        <translation>자동 변환되는 zXXX 퍼센트</translation>
+        <source>Percentage of autominted zMYMN</source>
+        <translation>자동 변환되는 zMYMN 퍼센트</translation>
     </message>
     <message>
         <source>Wait with automatic conversion to Zerocoin until enough MYMN for this denomination is available</source>
-        <translation>이 디노미네이션의 XXX가 충분해질 때까지 Zerocoin으로 자동전환은 보류됩니다.</translation>
+        <translation>이 디노미네이션의 MYMN가 충분해질 때까지 Zerocoin으로 자동전환은 보류됩니다.</translation>
     </message>
     <message>
-        <source>Preferred Automint zXXX Denomination</source>
-        <translation>선호하는 자동생성 zXXX 디노미네이션 </translation>
+        <source>Preferred Automint zMYMN Denomination</source>
+        <translation>선호하는 자동생성 zMYMN 디노미네이션 </translation>
     </message>
     <message>
         <source>Connect to the Mymn network through a SOCKS5 proxy.</source>
@@ -1935,8 +1935,8 @@ https://www.transifex.com/mymn-project/mymn-project-translations</translation>
         <translation>MYMN:</translation>
     </message>
     <message>
-        <source>zXXX:</source>
-        <translation>zXXX:</translation>
+        <source>zMYMN:</source>
+        <translation>zMYMN:</translation>
     </message>
     <message>
         <source>0 %</source>
@@ -2068,8 +2068,8 @@ https://www.transifex.com/mymn-project/mymn-project-translations</translation>
         <translation>제로코인 프로토콜을 통해 익명화된 MYMN</translation>
     </message>
     <message>
-        <source>Zerocoin MYMN (zXXX)</source>
-        <translation>제로코인 MYMN (zXXX)</translation>
+        <source>Zerocoin MYMN (zMYMN)</source>
+        <translation>제로코인 MYMN (zMYMN)</translation>
     </message>
     <message>
         <source>Zerocoin Actions:</source>
@@ -2081,7 +2081,7 @@ https://www.transifex.com/mymn-project/mymn-project-translations</translation>
     </message>
     <message>
         <source>Enter an amount of Phr to convert to zPhr</source>
-        <translation>zXXX로 변환할 MYMN 수량을 입력하세요.</translation>
+        <translation>zMYMN로 변환할 MYMN 수량을 입력하세요.</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -2092,8 +2092,8 @@ https://www.transifex.com/mymn-project/mymn-project-translations</translation>
         <translation>0</translation>
     </message>
     <message>
-        <source>zXXX</source>
-        <translation>zXXX</translation>
+        <source>zMYMN</source>
+        <translation>zMYMN</translation>
     </message>
     <message>
         <source>Available for Minting:</source>
@@ -2137,11 +2137,11 @@ https://www.transifex.com/mymn-project/mymn-project-translations</translation>
     </message>
     <message>
         <source>zPhr Control</source>
-        <translation>zXXX 설정</translation>
+        <translation>zMYMN 설정</translation>
     </message>
     <message>
         <source>zPhr Selected:</source>
-        <translation>선택한 zXXX : </translation>
+        <translation>선택한 zMYMN : </translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2160,8 +2160,8 @@ https://www.transifex.com/mymn-project/mymn-project-translations</translation>
         <translation>가능한 잔액:</translation>
     </message>
     <message>
-        <source>0 zXXX</source>
-        <translation>0 zXXX</translation>
+        <source>0 zMYMN</source>
+        <translation>0 zMYMN</translation>
     </message>
     <message>
         <source>Security Level for Zerocoin Transactions. More is better, but needs more time and resources.</source>
@@ -2181,7 +2181,7 @@ https://www.transifex.com/mymn-project/mymn-project-translations</translation>
     </message>
     <message>
         <source>The Mymn address to send the payment to. Creates local payment to yourself when empty.</source>
-        <translation>XXX를 전송할 Mymn 주소입니다. 비어있을 때 자신에게 지불할 주소를 생성합니다.</translation>
+        <translation>MYMN를 전송할 Mymn 주소입니다. 비어있을 때 자신에게 지불할 주소를 생성합니다.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2400,8 +2400,8 @@ https://www.transifex.com/mymn-project/mymn-project-translations</translation>
         <translation>성공적으로 발행됨</translation>
     </message>
     <message>
-        <source> zXXX in </source>
-        <translation> zXXX in </translation>
+        <source> zMYMN in </source>
+        <translation> zMYMN in </translation>
     </message>
     <message>
         <source> sec. Used denominations:
@@ -2503,7 +2503,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>zPhr Mint</source>
-        <translation>zXXX 생성</translation>
+        <translation>zMYMN 생성</translation>
     </message>
     <message>
         <source>Sending successful, return code: </source>
@@ -3184,12 +3184,12 @@ Please be patient...</source>
         <translation>코인 자동으로 선택됨</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uXXXs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uXXXs in fee,&lt;br /&gt;while "at least" pays 1000 uXXXs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>트랜잭션이 250바이트 인 경우 사용자 지정 수수료가 1000 uXXXs로 설정되고,&lt;br /&gt;1000 uXXXs 안에는 최소 "킬로바이트당" 250 uXXXs 만 지불합니다. 1 킬로바이트보다 큰 트랜잭션의 경우 모두 킬로바이트 단위로 지불합니다.</translation>
+        <source>If the custom fee is set to 1000 uMYMNs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uMYMNs in fee,&lt;br /&gt;while "at least" pays 1000 uMYMNs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>트랜잭션이 250바이트 인 경우 사용자 지정 수수료가 1000 uMYMNs로 설정되고,&lt;br /&gt;1000 uMYMNs 안에는 최소 "킬로바이트당" 250 uMYMNs 만 지불합니다. 1 킬로바이트보다 큰 트랜잭션의 경우 모두 킬로바이트 단위로 지불합니다.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uXXXs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uXXXs in fee,&lt;br /&gt;while "total at least" pays 1000 uXXXs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>트랜잭션이 250바이트 인 경우 사용자 지정 수수료가 1000 uXXXs로 설정되고,&lt;br /&gt;1000 uXXXs 안에는 전체에서 최소 "킬로바이트당" 250 uXXXs 만 지불합니다. 1 킬로바이트보다 큰 트랜잭션의 경우 모두 킬로바이트 단위로 지불합니다.</translation>
+        <source>If the custom fee is set to 1000 uMYMNs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uMYMNs in fee,&lt;br /&gt;while "total at least" pays 1000 uMYMNs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>트랜잭션이 250바이트 인 경우 사용자 지정 수수료가 1000 uMYMNs로 설정되고,&lt;br /&gt;1000 uMYMNs 안에는 전체에서 최소 "킬로바이트당" 250 uMYMNs 만 지불합니다. 1 킬로바이트보다 큰 트랜잭션의 경우 모두 킬로바이트 단위로 지불합니다.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Mymn transactions than the network can process.</source>
@@ -3962,19 +3962,19 @@ Please be patient...</source>
     </message>
     <message>
         <source>Converted Phr to zPhr</source>
-        <translation>zXXX로 변환된 MYMN</translation>
+        <translation>zMYMN로 변환된 MYMN</translation>
     </message>
     <message>
         <source>Spent zPhr</source>
-        <translation>전송된 zXXX</translation>
+        <translation>전송된 zMYMN</translation>
     </message>
     <message>
         <source>Received Phr from zPhr</source>
-        <translation>zXXX로 전송받은 MYMN</translation>
+        <translation>zMYMN로 전송받은 MYMN</translation>
     </message>
     <message>
         <source>Minted Change as zPhr from zPhr Spend</source>
-        <translation>zXXX 전송후 남은 잔돈 zXXX 생성됨</translation>
+        <translation>zMYMN 전송후 남은 잔돈 zMYMN 생성됨</translation>
     </message>
     <message>
         <source>Converted zPhr to Phr</source>
@@ -4097,7 +4097,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>Received Phr from zPhr</source>
-        <translation>zXXX로 전송받은 MYMN</translation>
+        <translation>zMYMN로 전송받은 MYMN</translation>
     </message>
     <message>
         <source>Zerocoin Mint</source>
@@ -4109,7 +4109,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>Zerocoin Spend, Change in zPhr</source>
-        <translation>제로코인 전송, 잔돈은 zXXX</translation>
+        <translation>제로코인 전송, 잔돈은 zMYMN</translation>
     </message>
     <message>
         <source>Zerocoin Spend to Self</source>
@@ -4234,7 +4234,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 MYMN.</source>
-        <translation>SwiftTX는 아직 높은 값을 전송하는 것을 지원하지 않습니다. 트랜잭션은 현재 %1 XXX로 제한됩니다.</translation>
+        <translation>SwiftTX는 아직 높은 값을 전송하는 것을 지원하지 않습니다. 트랜잭션은 현재 %1 MYMN로 제한됩니다.</translation>
     </message>
 </context>
 <context>
@@ -4280,7 +4280,7 @@ Please be patient...</source>
     <name>ZPhrControlDialog</name>
     <message>
         <source>Select zPhr to Spend</source>
-        <translation>전송할 zXXX 선택</translation>
+        <translation>전송할 zMYMN 선택</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -4527,11 +4527,11 @@ rpcpassword=%s
     </message>
     <message>
         <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 MYMN.</source>
-        <translation>이 트랜잭션를 위해 난독화 표기가 안된 충분한 금액을 찾을 수 없습니다. 10000 XXX과 일치하지 않음.</translation>
+        <translation>이 트랜잭션를 위해 난독화 표기가 안된 충분한 금액을 찾을 수 없습니다. 10000 MYMN과 일치하지 않음.</translation>
     </message>
     <message>
         <source>Unable to locate enough funds for this transaction that are not equal 10000 MYMN.</source>
-        <translation>트랜잭션에 대한 충분한 금액을 찾을 수 없습니다. 10000 XXX와 같지 않음</translation>
+        <translation>트랜잭션에 대한 충분한 금액을 찾을 수 없습니다. 10000 MYMN와 같지 않음</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>

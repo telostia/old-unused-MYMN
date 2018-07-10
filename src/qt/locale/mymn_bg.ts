@@ -176,7 +176,7 @@
         <translation>Потвърдете шифрирането на портфейла</translation>
     </message>
     <message>
-        <source>Mymn will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XXXs from being stolen by malware infecting your computer.</source>
+        <source>Mymn will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your MYMNs from being stolen by malware infecting your computer.</source>
         <translation>Mymn сега ще се затвори, за да довърши процеса по шифриране. Запомнете, че шифрирането на вашия портфейл не може напълно да защити вашия Mymn от това, да бъде откраднат чрез злонамерен софутуер, инфектирал вашия компютър.</translation>
     </message>
     <message>
@@ -618,8 +618,8 @@
         <translation>&amp;Поверителност</translation>
     </message>
     <message>
-        <source>Privacy Action for zXXX and Obfuscation</source>
-        <translation>Поверителни действия за zXXX и Обфускация</translation>
+        <source>Privacy Action for zMYMN and Obfuscation</source>
+        <translation>Поверителни действия за zMYMN и Обфускация</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -1712,20 +1712,20 @@ https://www.transifex.com/mymn-project/mymn-project-translations</source>
 https://www.transifex.com/mymn-project/mymn-project-translations</translation>
     </message>
     <message>
-        <source>Percentage of incoming MYMN which get automatically converted to zXXX via Zerocoin Protocol (min: 10%)</source>
-        <translation>Процент от входящите MYMN, който автоматично да се конвертира в zXXX посредтвом Zerocoin Протокола (мин: 10%)</translation>
+        <source>Percentage of incoming MYMN which get automatically converted to zMYMN via Zerocoin Protocol (min: 10%)</source>
+        <translation>Процент от входящите MYMN, който автоматично да се конвертира в zMYMN посредтвом Zerocoin Протокола (мин: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zXXX</source>
-        <translation>Процент автоматично сечени zXXX</translation>
+        <source>Percentage of autominted zMYMN</source>
+        <translation>Процент автоматично сечени zMYMN</translation>
     </message>
     <message>
         <source>Wait with automatic conversion to Zerocoin until enough MYMN for this denomination is available</source>
-        <translation>Не бързай с автоматичното конвертиране в zXXX докато не се съберат достатъчно MYMN за тази деноминация</translation>
+        <translation>Не бързай с автоматичното конвертиране в zMYMN докато не се съберат достатъчно MYMN за тази деноминация</translation>
     </message>
     <message>
-        <source>Preferred Automint zXXX Denomination</source>
-        <translation>Предпочитани деноминации, в които да се сече автоматичен zXXX</translation>
+        <source>Preferred Automint zMYMN Denomination</source>
+        <translation>Предпочитани деноминации, в които да се сече автоматичен zMYMN</translation>
     </message>
     <message>
         <source>Connect to the Mymn network through a SOCKS5 proxy.</source>
@@ -1931,8 +1931,8 @@ https://www.transifex.com/mymn-project/mymn-project-translations</translation>
         <translation>MYMN:</translation>
     </message>
     <message>
-        <source>zXXX:</source>
-        <translation>zXXX:</translation>
+        <source>zMYMN:</source>
+        <translation>zMYMN:</translation>
     </message>
     <message>
         <source>0 %</source>
@@ -2064,8 +2064,8 @@ https://www.transifex.com/mymn-project/mymn-project-translations</translation>
         <translation>MYMN скрити посредством Зерокойн протокола</translation>
     </message>
     <message>
-        <source>Zerocoin MYMN (zXXX)</source>
-        <translation>Zerocoin MYMN (zXXX)</translation>
+        <source>Zerocoin MYMN (zMYMN)</source>
+        <translation>Zerocoin MYMN (zMYMN)</translation>
     </message>
     <message>
         <source>Zerocoin Actions:</source>
@@ -2077,7 +2077,7 @@ https://www.transifex.com/mymn-project/mymn-project-translations</translation>
     </message>
     <message>
         <source>Enter an amount of Phr to convert to zPhr</source>
-        <translation>Въведете колко MYMN  да се конвертират в zXXX</translation>
+        <translation>Въведете колко MYMN  да се конвертират в zMYMN</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -2088,8 +2088,8 @@ https://www.transifex.com/mymn-project/mymn-project-translations</translation>
         <translation>0</translation>
     </message>
     <message>
-        <source>zXXX</source>
-        <translation>zXXX</translation>
+        <source>zMYMN</source>
+        <translation>zMYMN</translation>
     </message>
     <message>
         <source>Available for Minting:</source>
@@ -2133,11 +2133,11 @@ https://www.transifex.com/mymn-project/mymn-project-translations</translation>
     </message>
     <message>
         <source>zPhr Control</source>
-        <translation>zXXX Контрол</translation>
+        <translation>zMYMN Контрол</translation>
     </message>
     <message>
         <source>zPhr Selected:</source>
-        <translation>Избрани zXXX:</translation>
+        <translation>Избрани zMYMN:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2156,8 +2156,8 @@ https://www.transifex.com/mymn-project/mymn-project-translations</translation>
         <translation>Налични:</translation>
     </message>
     <message>
-        <source>0 zXXX</source>
-        <translation>0 zXXX</translation>
+        <source>0 zMYMN</source>
+        <translation>0 zMYMN</translation>
     </message>
     <message>
         <source>Security Level for Zerocoin Transactions. More is better, but needs more time and resources.</source>
@@ -2209,7 +2209,7 @@ https://www.transifex.com/mymn-project/mymn-project-translations</translation>
     </message>
     <message>
         <source>Convert Change to Zerocoin (might cost additional fees)</source>
-        <translation>Изсечи zXXX от рестото (ще струва допълнително заради таксите)</translation>
+        <translation>Изсечи zMYMN от рестото (ще струва допълнително заради таксите)</translation>
     </message>
     <message>
         <source>If checked, the wallet tries to minimize the returning change instead of minimizing the number of spent denominations.</source>
@@ -2396,8 +2396,8 @@ https://www.transifex.com/mymn-project/mymn-project-translations</translation>
         <translation>Успешно изсечени</translation>
     </message>
     <message>
-        <source> zXXX in </source>
-        <translation>zXXX в</translation>
+        <source> zMYMN in </source>
+        <translation>zMYMN в</translation>
     </message>
     <message>
         <source> sec. Used denominations:
@@ -2475,7 +2475,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>zPhr Spend #: </source>
-        <translation>zXXX Похарчени #:</translation>
+        <translation>zMYMN Похарчени #:</translation>
     </message>
     <message>
         <source>denomination: </source>
@@ -2499,7 +2499,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>zPhr Mint</source>
-        <translation>Сечене на zXXX</translation>
+        <translation>Сечене на zMYMN</translation>
     </message>
     <message>
         <source>Sending successful, return code: </source>
@@ -3179,12 +3179,12 @@ Please be patient...</source>
         <translation>Автоматично избрани монети</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uXXXs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uXXXs in fee,&lt;br /&gt;while "at least" pays 1000 uXXXs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Ако собствената такса е настроена на 1000 uXXX и превода е само 250 байта, то тогава "за килобайт" само плаща 250 uXXX входяща такса, &lt;br /&gt;докато "минимална сума" плаща 1000 uXXX. За транзакции по-големи от килобайт, и двете плащат за килобайт.</translation>
+        <source>If the custom fee is set to 1000 uMYMNs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uMYMNs in fee,&lt;br /&gt;while "at least" pays 1000 uMYMNs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Ако собствената такса е настроена на 1000 uMYMN и превода е само 250 байта, то тогава "за килобайт" само плаща 250 uMYMN входяща такса, &lt;br /&gt;докато "минимална сума" плаща 1000 uMYMN. За транзакции по-големи от килобайт, и двете плащат за килобайт.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uXXXs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uXXXs in fee,&lt;br /&gt;while "total at least" pays 1000 uXXXs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Ако собствената такса е настроена на 1000 uXXX и превода е само 250 байта, то тогава "за килобайт" само плаща 250 uXXX входяща такса,&lt;br /&gt; докато "минимална сума" плаща 1000 uXXX. За транзакции по-големи от килобайт, и двете плащат за килобайт.</translation>
+        <source>If the custom fee is set to 1000 uMYMNs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uMYMNs in fee,&lt;br /&gt;while "total at least" pays 1000 uMYMNs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Ако собствената такса е настроена на 1000 uMYMN и превода е само 250 байта, то тогава "за килобайт" само плаща 250 uMYMN входяща такса,&lt;br /&gt; докато "минимална сума" плаща 1000 uMYMN. За транзакции по-големи от килобайт, и двете плащат за килобайт.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Mymn transactions than the network can process.</source>
@@ -3956,23 +3956,23 @@ Please be patient...</source>
     </message>
     <message>
         <source>Converted Phr to zPhr</source>
-        <translation>Конвертиран MYMN във zXXX</translation>
+        <translation>Конвертиран MYMN във zMYMN</translation>
     </message>
     <message>
         <source>Spent zPhr</source>
-        <translation>Похарчени zXXX</translation>
+        <translation>Похарчени zMYMN</translation>
     </message>
     <message>
         <source>Received Phr from zPhr</source>
-        <translation>Получен MYMN от zXXX</translation>
+        <translation>Получен MYMN от zMYMN</translation>
     </message>
     <message>
         <source>Minted Change as zPhr from zPhr Spend</source>
-        <translation>Исечено ресто като zXXX от похарчените zXXX</translation>
+        <translation>Исечено ресто като zMYMN от похарчените zMYMN</translation>
     </message>
     <message>
         <source>Converted zPhr to Phr</source>
-        <translation>Конвертирани zXXX в MYMN</translation>
+        <translation>Конвертирани zMYMN в MYMN</translation>
     </message>
     <message>
         <source>watch-only</source>
@@ -3980,7 +3980,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>zPhr Accumulator</source>
-        <translation>zXXX Акумулатор</translation>
+        <translation>zMYMN Акумулатор</translation>
     </message>
     <message>
         <source>(n/a)</source>
@@ -4087,7 +4087,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>Received Phr from zPhr</source>
-        <translation>Получен MYMN от zXXX</translation>
+        <translation>Получен MYMN от zMYMN</translation>
     </message>
     <message>
         <source>Zerocoin Mint</source>
@@ -4099,7 +4099,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>Zerocoin Spend, Change in zPhr</source>
-        <translation>Харчене на Zerocoin, Ресто в zXXX</translation>
+        <translation>Харчене на Zerocoin, Ресто в zMYMN</translation>
     </message>
     <message>
         <source>Zerocoin Spend to Self</source>
@@ -4262,7 +4262,7 @@ Please be patient...</source>
     <name>ZPhrControlDialog</name>
     <message>
         <source>Select zPhr to Spend</source>
-        <translation>Изберете zXXX за Изпращане</translation>
+        <translation>Изберете zMYMN за Изпращане</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -4274,7 +4274,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>zPhr</source>
-        <translation>zXXX</translation>
+        <translation>zMYMN</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>

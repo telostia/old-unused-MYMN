@@ -54,35 +54,35 @@ Value getinfo(const Array& params, bool fHelp)
             "Returns an object containing various state info.\n"
             "\nResult:\n"
             "{\n"
-            "  \"version\": xxxxx,           (numeric) the server version\n"
-            "  \"protocolversion\": xxxxx,   (numeric) the protocol version\n"
-            "  \"walletversion\": xxxxx,     (numeric) the wallet version\n"
-            "  \"balance\": xxxxxxx,         (numeric) the total mymn balance of the wallet (excluding zerocoins)\n"
-            "  \"zerocoinbalance\": xxxxxxx, (numeric) the total zerocoin balance of the wallet\n"
-            "  \"blocks\": xxxxxx,           (numeric) the current number of blocks processed in the server\n"
-            "  \"timeoffset\": xxxxx,        (numeric) the time offset\n"
-            "  \"connections\": xxxxx,       (numeric) the number of connections\n"
+            "  \"version\": mymnxx,           (numeric) the server version\n"
+            "  \"protocolversion\": mymnxx,   (numeric) the protocol version\n"
+            "  \"walletversion\": mymnxx,     (numeric) the wallet version\n"
+            "  \"balance\": mymnmymnx,         (numeric) the total mymn balance of the wallet (excluding zerocoins)\n"
+            "  \"zerocoinbalance\": mymnmymnx, (numeric) the total zerocoin balance of the wallet\n"
+            "  \"blocks\": mymnmymn,           (numeric) the current number of blocks processed in the server\n"
+            "  \"timeoffset\": mymnxx,        (numeric) the time offset\n"
+            "  \"connections\": mymnxx,       (numeric) the number of connections\n"
             "  \"proxy\": \"host:port\",     (string, optional) the proxy used by the server\n"
-            "  \"difficulty\": xxxxxx,       (numeric) the current difficulty\n"
+            "  \"difficulty\": mymnmymn,       (numeric) the current difficulty\n"
             "  \"testnet\": true|false,      (boolean) if the server is using testnet or not\n"
             "  \"moneysupply\" : \"supply\"       (numeric) The money supply when this block was added to the blockchain\n"
-            "  \"zXXXsupply\" :\n"
+            "  \"zMYMNsupply\" :\n"
             "  {\n"
-            "     \"1\" : n,            (numeric) supply of 1 zXXX denomination\n"
-            "     \"5\" : n,            (numeric) supply of 5 zXXX denomination\n"
-            "     \"10\" : n,           (numeric) supply of 10 zXXX denomination\n"
-            "     \"50\" : n,           (numeric) supply of 50 zXXX denomination\n"
-            "     \"100\" : n,          (numeric) supply of 100 zXXX denomination\n"
-            "     \"500\" : n,          (numeric) supply of 500 zXXX denomination\n"
-            "     \"1000\" : n,         (numeric) supply of 1000 zXXX denomination\n"
-            "     \"5000\" : n,         (numeric) supply of 5000 zXXX denomination\n"
-            "     \"total\" : n,        (numeric) The total supply of all zXXX denominations\n"
+            "     \"1\" : n,            (numeric) supply of 1 zMYMN denomination\n"
+            "     \"5\" : n,            (numeric) supply of 5 zMYMN denomination\n"
+            "     \"10\" : n,           (numeric) supply of 10 zMYMN denomination\n"
+            "     \"50\" : n,           (numeric) supply of 50 zMYMN denomination\n"
+            "     \"100\" : n,          (numeric) supply of 100 zMYMN denomination\n"
+            "     \"500\" : n,          (numeric) supply of 500 zMYMN denomination\n"
+            "     \"1000\" : n,         (numeric) supply of 1000 zMYMN denomination\n"
+            "     \"5000\" : n,         (numeric) supply of 5000 zMYMN denomination\n"
+            "     \"total\" : n,        (numeric) The total supply of all zMYMN denominations\n"
             "  }\n"
-            "  \"keypoololdest\": xxxxxx,    (numeric) the timestamp (seconds since GMT epoch) of the oldest pre-generated key in the key pool\n"
-            "  \"keypoolsize\": xxxx,        (numeric) how many new keys are pre-generated\n"
+            "  \"keypoololdest\": mymnmymn,    (numeric) the timestamp (seconds since GMT epoch) of the oldest pre-generated key in the key pool\n"
+            "  \"keypoolsize\": mymnx,        (numeric) how many new keys are pre-generated\n"
             "  \"unlocked_until\": ttt,      (numeric) the timestamp in seconds since epoch (midnight Jan 1 1970 GMT) that the wallet is unlocked for transfers, or 0 if the wallet is locked\n"
-            "  \"paytxfee\": x.xxxx,         (numeric) the transaction fee set in mymn/kb\n"
-            "  \"relayfee\": x.xxxx,         (numeric) minimum relay fee for non-free transactions in mymn/kb\n"
+            "  \"paytxfee\": x.mymnx,         (numeric) the transaction fee set in mymn/kb\n"
+            "  \"relayfee\": x.mymnx,         (numeric) minimum relay fee for non-free transactions in mymn/kb\n"
             "  \"staking status\": true|false,  (boolean) if the wallet is staking or not\n"
             "  \"errors\": \"...\"           (string) any error messages\n"
             "}\n"
@@ -109,12 +109,12 @@ Value getinfo(const Array& params, bool fHelp)
     obj.push_back(Pair("difficulty", (double)GetDifficulty()));
     obj.push_back(Pair("testnet", Params().TestnetToBeDeprecatedFieldRPC()));
     obj.push_back(Pair("moneysupply",ValueFromAmount(chainActive.Tip()->nMoneySupply)));
-    Object zxxxObj;
+    Object zmymnObj;
     for (auto denom : libzerocoin::zerocoinDenomList) {
-        zxxxObj.push_back(Pair(to_string(denom), ValueFromAmount(chainActive.Tip()->mapZerocoinSupply.at(denom) * (denom*COIN))));
+        zmymnObj.push_back(Pair(to_string(denom), ValueFromAmount(chainActive.Tip()->mapZerocoinSupply.at(denom) * (denom*COIN))));
     }
-    zxxxObj.emplace_back(Pair("total", ValueFromAmount(chainActive.Tip()->GetZerocoinSupply())));
-    obj.emplace_back(Pair("zXXXsupply", zxxxObj));
+    zmymnObj.emplace_back(Pair("total", ValueFromAmount(chainActive.Tip()->GetZerocoinSupply())));
+    obj.emplace_back(Pair("zMYMNsupply", zmymnObj));
     
 #ifdef ENABLE_WALLET
     if (pwalletMain) {
@@ -153,10 +153,10 @@ Value mnsync(const Array& params, bool fHelp)
             "\nResult ('status' mode):\n"
             "{\n"
             "  \"IsBlockchainSynced\": true|false,    (boolean) 'true' if blockchain is synced\n"
-            "  \"lastMasternodeList\": xxxx,        (numeric) Timestamp of last MN list message\n"
-            "  \"lastMasternodeWinner\": xxxx,      (numeric) Timestamp of last MN winner message\n"
-            "  \"lastBudgetItem\": xxxx,            (numeric) Timestamp of last MN budget message\n"
-            "  \"lastFailure\": xxxx,           (numeric) Timestamp of last failed sync\n"
+            "  \"lastMasternodeList\": mymnx,        (numeric) Timestamp of last MN list message\n"
+            "  \"lastMasternodeWinner\": mymnx,      (numeric) Timestamp of last MN winner message\n"
+            "  \"lastBudgetItem\": mymnx,            (numeric) Timestamp of last MN budget message\n"
+            "  \"lastFailure\": mymnx,           (numeric) Timestamp of last failed sync\n"
             "  \"nCountFailures\": n,           (numeric) Number of failed syncs (total)\n"
             "  \"sumMasternodeList\": n,        (numeric) Number of MN list messages (total)\n"
             "  \"sumMasternodeWinner\": n,      (numeric) Number of MN winner messages (total)\n"

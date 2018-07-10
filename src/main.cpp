@@ -2593,7 +2593,7 @@ void ThreadScriptCheck()
     scriptcheckqueue.Thread();
 }
 
-void RecalculateZXXXMinted()
+void RecalculateZMYMNMinted()
 {
     CBlockIndex *pindex = chainActive[Params().Zerocoin_AccumulatorStartHeight()];
     int nHeightEnd = chainActive.Height();
@@ -2625,14 +2625,14 @@ void RecalculateZXXXMinted()
     pblocktree->Flush();
 }
 
-void RecalculateZXXXSpent()
+void RecalculateZMYMNSpent()
 {
     CBlockIndex* pindex = chainActive[Params().Zerocoin_AccumulatorStartHeight()];
     while (true) {
         if (pindex->nHeight % 1000 == 0)
             LogPrintf("%s : block %d...\n", __func__, pindex->nHeight);
 
-        //Rewrite zXXX supply
+        //Rewrite zMYMN supply
         CBlock block;
         assert(ReadBlockFromDisk(block, pindex));
 
@@ -2641,13 +2641,13 @@ void RecalculateZXXXSpent()
         //Reset the supply to previous block
         pindex->mapZerocoinSupply = pindex->pprev->mapZerocoinSupply;
 
-        //Add mints to zXXX supply
+        //Add mints to zMYMN supply
         for (auto denom : libzerocoin::zerocoinDenomList) {
             long nDenomAdded = count(pindex->vMintDenominationsInBlock.begin(), pindex->vMintDenominationsInBlock.end(), denom);
             pindex->mapZerocoinSupply.at(denom) += nDenomAdded;
         }
 
-        //Remove spends from zXXX supply
+        //Remove spends from zMYMN supply
         for (auto denom : listDenomsSpent)
             pindex->mapZerocoinSupply.at(denom)--;
 
@@ -2662,7 +2662,7 @@ void RecalculateZXXXSpent()
     pblocktree->Flush();
 }
 
-bool RecalculateXXXSupply(int nHeightStart)
+bool RecalculateMYMNSupply(int nHeightStart)
 {
     if (nHeightStart > chainActive.Height())
         return false;
@@ -2899,9 +2899,9 @@ bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockIndex* pin
     std::list<libzerocoin::CoinDenomination> listSpends = ZerocoinSpendListFromBlock(block);
 
     if (!fVerifyingBlocks && pindex->nHeight == Params().Zerocoin_StartHeight() + 1) {
-        RecalculateZXXXMinted();
-        RecalculateZXXXSpent();
-        RecalculateXXXSupply(1);
+        RecalculateZMYMNMinted();
+        RecalculateZMYMNSpent();
+        RecalculateMYMNSupply(1);
     }
 
     // Initialize zerocoin supply to the supply from previous block
@@ -3102,7 +3102,7 @@ void static UpdateTip(CBlockIndex* pindexNew)
 {
     chainActive.SetTip(pindexNew);
 
-    // If turned on AutoZeromint will automatically convert MYMN to zXXX
+    // If turned on AutoZeromint will automatically convert MYMN to zMYMN
     if (pwalletMain->isZeromintEnabled ())
         pwalletMain->AutoZeromint ();
 

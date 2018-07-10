@@ -176,7 +176,7 @@
         <translation>Підтвердження шифрування гаманця</translation>
     </message>
     <message>
-        <source>Mymn will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XXXs from being stolen by malware infecting your computer.</source>
+        <source>Mymn will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your MYMNs from being stolen by malware infecting your computer.</source>
         <translation>Mymn зараз закриється, щоб завершити процес шифрування. Пам'ятайте, що шифрування гаманця не може повністю захистити ваші MYMN'и від крадіжки зловмисним програмним забезпеченням, що заражає ваш комп'ютер.</translation>
     </message>
     <message>

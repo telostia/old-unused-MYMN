@@ -91,12 +91,12 @@ Object blockToJSON(const CBlock& block, const CBlockIndex* blockindex, bool txDe
 
     result.push_back(Pair("moneysupply",ValueFromAmount(blockindex->nMoneySupply)));
 
-    Object zxxxObj;
+    Object zmymnObj;
     for (auto denom : libzerocoin::zerocoinDenomList) {
-        zxxxObj.push_back(Pair(to_string(denom), ValueFromAmount(blockindex->mapZerocoinSupply.at(denom) * (denom*COIN))));
+        zmymnObj.push_back(Pair(to_string(denom), ValueFromAmount(blockindex->mapZerocoinSupply.at(denom) * (denom*COIN))));
     }
-    zxxxObj.emplace_back(Pair("total", ValueFromAmount(blockindex->GetZerocoinSupply())));
-    result.emplace_back(Pair("zXXXsupply", zxxxObj));
+    zmymnObj.emplace_back(Pair("total", ValueFromAmount(blockindex->GetZerocoinSupply())));
+    result.emplace_back(Pair("zMYMNsupply", zmymnObj));
 
     return result;
 }
@@ -267,7 +267,7 @@ Value getblock(const Array& params, bool fHelp)
             "  \"size\" : n,            (numeric) The block size\n"
             "  \"height\" : n,          (numeric) The block height or index\n"
             "  \"version\" : n,         (numeric) The block version\n"
-            "  \"merkleroot\" : \"xxxx\", (string) The merkle root\n"
+            "  \"merkleroot\" : \"mymnx\", (string) The merkle root\n"
             "  \"tx\" : [               (array of string) The transaction ids\n"
             "     \"transactionid\"     (string) The transaction id\n"
             "     ,...\n"
@@ -275,21 +275,21 @@ Value getblock(const Array& params, bool fHelp)
             "  \"time\" : ttt,          (numeric) The block time in seconds since epoch (Jan 1 1970 GMT)\n"
             "  \"nonce\" : n,           (numeric) The nonce\n"
             "  \"bits\" : \"1d00ffff\", (string) The bits\n"
-            "  \"difficulty\" : x.xxx,  (numeric) The difficulty\n"
+            "  \"difficulty\" : x.mymn,  (numeric) The difficulty\n"
             "  \"previousblockhash\" : \"hash\",  (string) The hash of the previous block\n"
             "  \"nextblockhash\" : \"hash\"       (string) The hash of the next block\n"
             "  \"moneysupply\" : \"supply\"       (numeric) The money supply when this block was added to the blockchain\n"
-            "  \"zXXXsupply\" :\n"
+            "  \"zMYMNsupply\" :\n"
             "  {\n"
-            "     \"1\" : n,            (numeric) supply of 1 zXXX denomination\n"
-            "     \"5\" : n,            (numeric) supply of 5 zXXX denomination\n"
-            "     \"10\" : n,           (numeric) supply of 10 zXXX denomination\n"
-            "     \"50\" : n,           (numeric) supply of 50 zXXX denomination\n"
-            "     \"100\" : n,          (numeric) supply of 100 zXXX denomination\n"
-            "     \"500\" : n,          (numeric) supply of 500 zXXX denomination\n"
-            "     \"1000\" : n,         (numeric) supply of 1000 zXXX denomination\n"
-            "     \"5000\" : n,         (numeric) supply of 5000 zXXX denomination\n"
-            "     \"total\" : n,        (numeric) The total supply of all zXXX denominations\n"
+            "     \"1\" : n,            (numeric) supply of 1 zMYMN denomination\n"
+            "     \"5\" : n,            (numeric) supply of 5 zMYMN denomination\n"
+            "     \"10\" : n,           (numeric) supply of 10 zMYMN denomination\n"
+            "     \"50\" : n,           (numeric) supply of 50 zMYMN denomination\n"
+            "     \"100\" : n,          (numeric) supply of 100 zMYMN denomination\n"
+            "     \"500\" : n,          (numeric) supply of 500 zMYMN denomination\n"
+            "     \"1000\" : n,         (numeric) supply of 1000 zMYMN denomination\n"
+            "     \"5000\" : n,         (numeric) supply of 5000 zMYMN denomination\n"
+            "     \"total\" : n,        (numeric) The total supply of all zMYMN denominations\n"
             "  }\n"
             "}\n"
             "\nResult (for verbose=false):\n"
@@ -337,7 +337,7 @@ Value getblockheader(const Array& params, bool fHelp)
             "{\n"
             "  \"version\" : n,         (numeric) The block version\n"
             "  \"previousblockhash\" : \"hash\",  (string) The hash of the previous block\n"
-            "  \"merkleroot\" : \"xxxx\", (string) The merkle root\n"
+            "  \"merkleroot\" : \"mymnx\", (string) The merkle root\n"
             "  \"time\" : ttt,          (numeric) The block time in seconds since epoch (Jan 1 1970 GMT)\n"
             "  \"bits\" : \"1d00ffff\", (string) The bits\n"
             "  \"nonce\" : n,           (numeric) The nonce\n"
@@ -388,7 +388,7 @@ Value gettxoutsetinfo(const Array& params, bool fHelp)
             "  \"txouts\": n,            (numeric) The number of output transactions\n"
             "  \"bytes_serialized\": n,  (numeric) The serialized size\n"
             "  \"hash_serialized\": \"hash\",   (string) The serialized hash\n"
-            "  \"total_amount\": x.xxx          (numeric) The total amount\n"
+            "  \"total_amount\": x.mymn          (numeric) The total amount\n"
             "}\n"
             "\nExamples:\n" +
             HelpExampleCli("gettxoutsetinfo", "") + HelpExampleRpc("gettxoutsetinfo", ""));
@@ -423,7 +423,7 @@ Value gettxout(const Array& params, bool fHelp)
             "{\n"
             "  \"bestblock\" : \"hash\",    (string) the block hash\n"
             "  \"confirmations\" : n,       (numeric) The number of confirmations\n"
-            "  \"value\" : x.xxx,           (numeric) The transaction value in btc\n"
+            "  \"value\" : x.mymn,           (numeric) The transaction value in btc\n"
             "  \"scriptPubKey\" : {         (json object)\n"
             "     \"asm\" : \"code\",       (string) \n"
             "     \"hex\" : \"hex\",        (string) \n"
@@ -513,13 +513,13 @@ Value getblockchaininfo(const Array& params, bool fHelp)
             "Returns an object containing various state info regarding block chain processing.\n"
             "\nResult:\n"
             "{\n"
-            "  \"chain\": \"xxxx\",        (string) current network name as defined in BIP70 (main, test, regtest)\n"
-            "  \"blocks\": xxxxxx,         (numeric) the current number of blocks processed in the server\n"
-            "  \"headers\": xxxxxx,        (numeric) the current number of headers we have validated\n"
+            "  \"chain\": \"mymnx\",        (string) current network name as defined in BIP70 (main, test, regtest)\n"
+            "  \"blocks\": mymnmymn,         (numeric) the current number of blocks processed in the server\n"
+            "  \"headers\": mymnmymn,        (numeric) the current number of headers we have validated\n"
             "  \"bestblockhash\": \"...\", (string) the hash of the currently best block\n"
-            "  \"difficulty\": xxxxxx,     (numeric) the current difficulty\n"
-            "  \"verificationprogress\": xxxx, (numeric) estimate of verification progress [0..1]\n"
-            "  \"chainwork\": \"xxxx\"     (string) total amount of work in active chain, in hexadecimal\n"
+            "  \"difficulty\": mymnmymn,     (numeric) the current difficulty\n"
+            "  \"verificationprogress\": mymnx, (numeric) estimate of verification progress [0..1]\n"
+            "  \"chainwork\": \"mymnx\"     (string) total amount of work in active chain, in hexadecimal\n"
             "}\n"
             "\nExamples:\n" +
             HelpExampleCli("getblockchaininfo", "") + HelpExampleRpc("getblockchaininfo", ""));
@@ -559,16 +559,16 @@ Value getchaintips(const Array& params, bool fHelp)
             "\nResult:\n"
             "[\n"
             "  {\n"
-            "    \"height\": xxxx,         (numeric) height of the chain tip\n"
-            "    \"hash\": \"xxxx\",         (string) block hash of the tip\n"
+            "    \"height\": mymnx,         (numeric) height of the chain tip\n"
+            "    \"hash\": \"mymnx\",         (string) block hash of the tip\n"
             "    \"branchlen\": 0          (numeric) zero for main chain\n"
             "    \"status\": \"active\"      (string) \"active\" for the main chain\n"
             "  },\n"
             "  {\n"
-            "    \"height\": xxxx,\n"
-            "    \"hash\": \"xxxx\",\n"
+            "    \"height\": mymnx,\n"
+            "    \"hash\": \"mymnx\",\n"
             "    \"branchlen\": 1          (numeric) length of branch connecting the tip to the main chain\n"
-            "    \"status\": \"xxxx\"        (string) status of the chain (active, valid-fork, valid-headers, headers-only, invalid)\n"
+            "    \"status\": \"mymnx\"        (string) status of the chain (active, valid-fork, valid-headers, headers-only, invalid)\n"
             "  }\n"
             "]\n"
             "Possible values for status:\n"
@@ -641,8 +641,8 @@ Value getmempoolinfo(const Array& params, bool fHelp)
             "\nReturns details on the active state of the TX memory pool.\n"
             "\nResult:\n"
             "{\n"
-            "  \"size\": xxxxx                (numeric) Current tx count\n"
-            "  \"bytes\": xxxxx               (numeric) Sum of all tx sizes\n"
+            "  \"size\": mymnxx                (numeric) Current tx count\n"
+            "  \"bytes\": mymnxx               (numeric) Sum of all tx sizes\n"
             "}\n"
             "\nExamples:\n" +
             HelpExampleCli("getmempoolinfo", "") + HelpExampleRpc("getmempoolinfo", ""));

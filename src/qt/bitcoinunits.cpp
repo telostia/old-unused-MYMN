@@ -20,8 +20,8 @@ QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
     unitlist.append(MYMN);
-    unitlist.append(mXXX);
-    unitlist.append(uXXX);
+    unitlist.append(mMYMN);
+    unitlist.append(uMYMN);
     return unitlist;
 }
 
@@ -29,8 +29,8 @@ bool BitcoinUnits::valid(int unit)
 {
     switch (unit) {
     case MYMN:
-    case mXXX:
-    case uXXX:
+    case mMYMN:
+    case uMYMN:
         return true;
     default:
         return false;
@@ -42,9 +42,9 @@ QString BitcoinUnits::id(int unit)
     switch (unit) {
     case MYMN:
         return QString("mymn");
-    case mXXX:
+    case mMYMN:
         return QString("mmymn");
-    case uXXX:
+    case uMYMN:
         return QString::fromUtf8("umymn");
     default:
         return QString("???");
@@ -57,21 +57,21 @@ QString BitcoinUnits::name(int unit)
         switch (unit) {
         case MYMN:
             return QString("MYMN");
-        case mXXX:
-            return QString("mXXX");
-        case uXXX:
-            return QString::fromUtf8("μXXX");
+        case mMYMN:
+            return QString("mMYMN");
+        case uMYMN:
+            return QString::fromUtf8("μMYMN");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
         case MYMN:
-            return QString("tXXX");
-        case mXXX:
-            return QString("mtXXX");
-        case uXXX:
-            return QString::fromUtf8("μtXXX");
+            return QString("tMYMN");
+        case mMYMN:
+            return QString("mtMYMN");
+        case uMYMN:
+            return QString::fromUtf8("μtMYMN");
         default:
             return QString("???");
         }
@@ -84,9 +84,9 @@ QString BitcoinUnits::description(int unit)
         switch (unit) {
         case MYMN:
             return QString("MYMN");
-        case mXXX:
+        case mMYMN:
             return QString("Milli-MYMN (1 / 1" THIN_SP_UTF8 "000)");
-        case uXXX:
+        case uMYMN:
             return QString("Micro-MYMN (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
@@ -94,11 +94,11 @@ QString BitcoinUnits::description(int unit)
     } else {
         switch (unit) {
         case MYMN:
-            return QString("TestXXXs");
-        case mXXX:
-            return QString("Milli-TestXXX (1 / 1" THIN_SP_UTF8 "000)");
-        case uXXX:
-            return QString("Micro-TestXXX (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            return QString("TestMYMNs");
+        case mMYMN:
+            return QString("Milli-TestMYMN (1 / 1" THIN_SP_UTF8 "000)");
+        case uMYMN:
+            return QString("Micro-TestMYMN (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
@@ -110,9 +110,9 @@ qint64 BitcoinUnits::factor(int unit)
     switch (unit) {
     case MYMN:
         return 100000000;
-    case mXXX:
+    case mMYMN:
         return 100000;
-    case uXXX:
+    case uMYMN:
         return 100;
     default:
         return 100000000;
@@ -124,9 +124,9 @@ int BitcoinUnits::decimals(int unit)
     switch (unit) {
     case MYMN:
         return 8;
-    case mXXX:
+    case mMYMN:
         return 5;
-    case uXXX:
+    case uMYMN:
         return 2;
     default:
         return 0;
