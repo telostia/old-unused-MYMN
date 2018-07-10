@@ -90,10 +90,10 @@ QT_TRANSLATE_NOOP("mymn-core", ""
 "Execute command when the best block changes (%s in cmd is replaced by block "
 "hash)"),
 QT_TRANSLATE_NOOP("mymn-core", ""
-"Fees (in XXX/Kb) smaller than this are considered zero fee for relaying "
+"Fees (in MYMN/Kb) smaller than this are considered zero fee for relaying "
 "(default: %s)"),
 QT_TRANSLATE_NOOP("mymn-core", ""
-"Fees (in XXX/Kb) smaller than this are considered zero fee for transaction "
+"Fees (in MYMN/Kb) smaller than this are considered zero fee for transaction "
 "creation (default: %s)"),
 QT_TRANSLATE_NOOP("mymn-core", ""
 "Flush database activity from memory pool to disk log every <n> megabytes "
@@ -188,10 +188,10 @@ QT_TRANSLATE_NOOP("mymn-core", ""
 "Unable to locate enough Obfuscation denominated funds for this transaction."),
 QT_TRANSLATE_NOOP("mymn-core", ""
 "Unable to locate enough Obfuscation non-denominated funds for this "
-"transaction that are not equal 10000 XXX."),
+"transaction that are not equal 10000 MYMN."),
 QT_TRANSLATE_NOOP("mymn-core", ""
 "Unable to locate enough funds for this transaction that are not equal 10000 "
-"XXX."),
+"MYMN."),
 QT_TRANSLATE_NOOP("mymn-core", ""
 "Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: "
 "%s)"),
@@ -226,10 +226,10 @@ QT_TRANSLATE_NOOP("mymn-core", ""
 QT_TRANSLATE_NOOP("mymn-core", ""
 "You must specify a masternodeprivkey in the configuration. Please see "
 "documentation for help."),
-QT_TRANSLATE_NOOP("mymn-core", "(6969 could be used only on mainnet)"),
+QT_TRANSLATE_NOOP("mymn-core", "(41474 could be used only on mainnet)"),
 QT_TRANSLATE_NOOP("mymn-core", "(default: %s)"),
 QT_TRANSLATE_NOOP("mymn-core", "(default: 1)"),
-QT_TRANSLATE_NOOP("mymn-core", "(must be 6969 for mainnet)"),
+QT_TRANSLATE_NOOP("mymn-core", "(must be 41474 for mainnet)"),
 QT_TRANSLATE_NOOP("mymn-core", "<category> can be:"),
 QT_TRANSLATE_NOOP("mymn-core", "Accept command line and JSON-RPC commands"),
 QT_TRANSLATE_NOOP("mymn-core", "Accept connections from outside (default: 1 if no -proxy or -connect)"),
@@ -305,7 +305,7 @@ QT_TRANSLATE_NOOP("mymn-core", "Failed to listen on any port. Use -listen=0 if y
 QT_TRANSLATE_NOOP("mymn-core", "Failed to read block index"),
 QT_TRANSLATE_NOOP("mymn-core", "Failed to read block"),
 QT_TRANSLATE_NOOP("mymn-core", "Failed to write block index"),
-QT_TRANSLATE_NOOP("mymn-core", "Fee (in XXX/kB) to add to transactions you send (default: %s)"),
+QT_TRANSLATE_NOOP("mymn-core", "Fee (in MYMN/kB) to add to transactions you send (default: %s)"),
 QT_TRANSLATE_NOOP("mymn-core", "Finalizing transaction."),
 QT_TRANSLATE_NOOP("mymn-core", "Force safe mode (default: %u)"),
 QT_TRANSLATE_NOOP("mymn-core", "Found enough users, signing ( waiting %s )"),

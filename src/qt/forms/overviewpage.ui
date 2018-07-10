@@ -60,7 +60,7 @@
                </font>
               </property>
               <property name="text">
-               <string>XXX Balances</string>
+               <string>MYMN Balances</string>
               </property>
              </widget>
             </item>
@@ -118,7 +118,7 @@
                <string>Unconfirmed transactions to watch-only addresses</string>
               </property>
               <property name="text">
-               <string notr="true">0.000 000 00 XXX</string>
+               <string notr="true">0.000 000 00 MYMN</string>
               </property>
               <property name="alignment">
                <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -143,7 +143,7 @@
                <string>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</string>
               </property>
               <property name="text">
-               <string notr="true">0.000 000 00 XXX</string>
+               <string notr="true">0.000 000 00 MYMN</string>
               </property>
               <property name="alignment">
                <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -168,7 +168,7 @@
                <string>Staked or masternode rewards in watch-only addresses that has not yet matured</string>
               </property>
               <property name="text">
-               <string notr="true">0.000 000 00 XXX</string>
+               <string notr="true">0.000 000 00 MYMN</string>
               </property>
               <property name="alignment">
                <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -226,7 +226,7 @@
                <string>Staked or masternode rewards that has not yet matured</string>
               </property>
               <property name="text">
-               <string notr="true">0.000 000 00 XXX</string>
+               <string notr="true">0.000 000 00 MYMN</string>
               </property>
               <property name="alignment">
                <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -271,7 +271,7 @@
                <string>Your current total balance</string>
               </property>
               <property name="text">
-               <string notr="true">0.000 000 00 XXX</string>
+               <string notr="true">0.000 000 00 MYMN</string>
               </property>
               <property name="alignment">
                <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -296,7 +296,7 @@
                <string>Current total balance in watch-only addresses</string>
               </property>
               <property name="text">
-               <string notr="true">0.000 000 00 XXX</string>
+               <string notr="true">0.000 000 00 MYMN</string>
               </property>
               <property name="alignment">
                <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -338,7 +338,7 @@
                <string>Your current spendable balance</string>
               </property>
               <property name="text">
-               <string notr="true">0.000 000 00 XXX</string>
+               <string notr="true">0.000 000 00 MYMN</string>
               </property>
               <property name="alignment">
                <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -363,7 +363,7 @@
                <string>Your current balance in watch-only addresses</string>
               </property>
               <property name="text">
-               <string notr="true">0.000 000 00 XXX</string>
+               <string notr="true">0.000 000 00 MYMN</string>
               </property>
               <property name="alignment">
                <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -963,7 +963,7 @@
                 <string>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</string>
                </property>
                <property name="text">
-                <string notr="true">0.000 000 00 XXX</string>
+                <string notr="true">0.000 000 00 MYMN</string>
                </property>
                <property name="alignment">
                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -988,7 +988,7 @@
                 <string>Total Balance, including unconfirmed and immature coins.</string>
                </property>
                <property name="text">
-                <string notr="true">0.000 000 00 XXX</string>
+                <string notr="true">0.000 000 00 MYMN</string>
                </property>
                <property name="alignment">
                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -1021,7 +1021,7 @@
              <item row="1" column="0">
               <widget class="QLabel" name="labelBalanceTextz">
                <property name="text">
-                <string>XXX:</string>
+                <string>MYMN:</string>
                </property>
               </widget>
              </item>
@@ -1040,7 +1040,7 @@
                 <string>Your current spendable balance</string>
                </property>
                <property name="text">
-                <string notr="true">0.000 000 00 XXX</string>
+                <string notr="true">0.000 000 00 MYMN</string>
                </property>
                <property name="alignment">
                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -1087,10 +1087,10 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
              <item row="2" column="1">
               <widget class="QLabel" name="labelLockedBalance">
                <property name="toolTip">
-                <string>Locked XXX or Masternode collaterals. These are excluded from zXXX minting.</string>
+                <string>Locked MYMN or Masternode collaterals. These are excluded from zXXX minting.</string>
                </property>
                <property name="text">
-                <string>0.000 000 00 XXX</string>
+                <string>0.000 000 00 MYMN</string>
                </property>
                <property name="alignment">
                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -1100,7 +1100,7 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
              <item row="2" column="0">
               <widget class="QLabel" name="labelLockedBalanceText">
                <property name="toolTip">
-                <string>Locked XXX or Masternode collaterals. These are excluded from zXXX minting.</string>
+                <string>Locked MYMN or Masternode collaterals. These are excluded from zXXX minting.</string>
                </property>
                <property name="text">
                 <string>Locked:</string>
@@ -1123,7 +1123,7 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
                 <string>Unlocked XXXs. These can be used for zXXX minting.</string>
                </property>
                <property name="text">
-                <string>0.000 000 00 XXX</string>
+                <string>0.000 000 00 MYMN</string>
                </property>
                <property name="alignment">
                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>

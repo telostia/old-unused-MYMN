@@ -105,7 +105,7 @@ public:
         pchMessageStart[2] = 0x49;
         pchMessageStart[3] = 0x56;
         vAlertPubKey = ParseHex("04bcbf5f4dab42002143f5b25a2e6fd658dd300508c0fd3c890edfa241edcdd224c9fb62d0a3e86ab655c384b598bd3e92d25fee84774060a0d461f0e9483587e5");
-        nDefaultPort = 6969;
+        nDefaultPort = 41474;
         bnProofOfWorkLimit = ~uint256(0) >> 20; // Mymn starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 210000;
         nMaxReorganizationDepth = 100;
