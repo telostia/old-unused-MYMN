@@ -1,5 +1,5 @@
 ---
-name: "mymn-linux-1.2"
+name: "mymn-linux-1.0.0"
 enable_cache: true
 suites:
 - "trusty"
@@ -29,8 +29,8 @@ packages:
 - "python"
 reference_datetime: "2015-06-01 00:00:00"
 remotes:
-- "url": "https://github.com/eastcoastcrypto/Mymn"
-  "dir": "mymn"
+- "url": "https://github.com/MyMasterNodeProject/MYMN"
+  "dir": "MYMN"
 files: []
 script: |
 
