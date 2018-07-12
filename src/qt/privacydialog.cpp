@@ -396,7 +396,7 @@ void PrivacyDialog::sendzMYMN()
     ui->TEMintStatus->setPlainText(tr("Spending Zerocoin.\nComputationally expensive, might need several minutes depending on the selected Security Level and your hardware. \nPlease be patient..."));
     ui->TEMintStatus->repaint();
 
-    // use mints from zXxx selector if applicable
+    // use mints from zMymn selector if applicable
     vector<CZerocoinMint> vMintsSelected;
     if (!ZXxxControlDialog::listSelectedMints.empty()) {
         vMintsSelected = ZXxxControlDialog::GetSelectedMints();
@@ -442,7 +442,7 @@ void PrivacyDialog::sendzMYMN()
     CAmount nValueIn = 0;
     int nCount = 0;
     for (CZerocoinSpend spend : receipt.GetSpends()) {
-        strStats += tr("zXxx Spend #: ") + QString::number(nCount) + ", ";
+        strStats += tr("zMymn Spend #: ") + QString::number(nCount) + ", ";
         strStats += tr("denomination: ") + QString::number(spend.GetDenomination()) + ", ";
         strStats += tr("serial: ") + spend.GetSerial().ToString().c_str() + "\n";
         strStats += tr("Spend is 1 of : ") + QString::number(spend.GetMintCount()) + " mints in the accumulator\n";
@@ -451,13 +451,13 @@ void PrivacyDialog::sendzMYMN()
 
     CAmount nValueOut = 0;
     for (const CTxOut& txout: wtxNew.vout) {
-        strStats += tr("value out: ") + FormatMoney(txout.nValue).c_str() + " Xxx, ";
+        strStats += tr("value out: ") + FormatMoney(txout.nValue).c_str() + " Mymn, ";
         nValueOut += txout.nValue;
 
         strStats += tr("address: ");
         CTxDestination dest;
         if(txout.scriptPubKey.IsZerocoinMint())
-            strStats += tr("zXxx Mint");
+            strStats += tr("zMymn Mint");
         else if(ExtractDestination(txout.scriptPubKey, dest))
             strStats += tr(CBitcoinAddress(dest).ToString().c_str());
         strStats += "\n";
